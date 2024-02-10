@@ -31,24 +31,25 @@
 * Go to "Factory Reset" and click "Format System"
 * Do the same with Format Data
 
-# From other AOSP rom
+## From other AOSP rom
 * Follow the guide on ["How to install ADB on your PC"](https://telegra.ph/HOW-TO-3-04-18) 
 * Reboot to Recovery
 * Go to Advanced
 * Tap "Enter Fastboot"
 * On PC open a Terminal of your choice
+
 ```
 fastboot flash RECOVERY/recovery (depending on how new your recovery is, try both) path/to/recovery.img
 ```
 
-# From TWRP
+## From TWRP
 * Put recovery.img where you can find it
 * Hit install and "Install Image"
 * Go to wherever you put the image and click on it
 * Select recovery and swipe to flash
 * Go to reboot and "Reboot to Recovery"
 
-# First time installation (clean flash) via PC:
+## First time installation (clean flash) via PC:
 
 * Make sure to have everything downloaded you want to use on your phone
   - crDroid
@@ -57,21 +58,24 @@ fastboot flash RECOVERY/recovery (depending on how new your recovery is, try bot
 * Follow the guide on ["How to install ADB on your PC"](https://telegra.ph/HOW-TO-3-04-18) 
 * On Recovery go to "Apply Update" and select "Apply from ADB"
 * On PC start a Terminal of your choice and enter
+
 ```
 adb sideload crDroid.zip
 ```
 * |*OPTIONAL*| On Recovery go to "Apply Update" and select "Apply from ADB"
+
 ```
 adb sideload gapps.zip
 ```
 * |*OPTIONAL*| On Recovery go to "Apply Update" and select "Apply from ADB"
+
 ```
 adb sideload magisk.zip
 ```
 * Now in recovery go to factory reset and Format Data once more. If asked select F2FS
 * Reboot to System
 
-# First time installation (clean flash) via OTG/SDCARD:
+## First time installation (clean flash) via OTG/SDCARD:
 
 * Make sure to have everything downloaded you want to use on your phone
   - crDroid
