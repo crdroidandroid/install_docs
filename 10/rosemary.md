@@ -6,14 +6,17 @@
 
 ### First time installation (clean flash):
 * reboot to fastboot using
+
 ```
 adb reboot bootloader
 ```
 * Flash boot image using
+
 ```
 fastboot flash boot boot.img
 ```
 * Boot to recovery using
+
 ```
 fastboot reboot recovery
 ```
@@ -29,10 +32,12 @@ adb sideload crdroid.zip
 * To install gapps, simply sideload gapps.zip the same way you installed crDroid.zip then reboot to system
 
 ### Update installation:
+#### Via recovery (recommended way):
 * Boot to recovery
 * Choose Advanced, ADB Sideload
 * Now install crDroid zip via sideload and reboot
 * Make sure to reflash Gapps/Firmware If Required
+
 ```
 adb sideload crdroid.zip
 ```
