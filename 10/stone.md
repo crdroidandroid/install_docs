@@ -1,6 +1,6 @@
 ### Pre-installation:
 
-* Latest regional MIUI firmware installed
+* Latest regional HyperOS firmware installed
 * Recovery (from download page, recovery button)
 * Optional gapps (from download page, gapps button)
 
@@ -31,3 +31,6 @@ adb sideload crDroid.zip
 * Go to Settings -> System -> Updater and download latest build
 * Choose install and let it finish
 * Reboot
+* After rebooting to system if gapps crash
+* Reboot to crDroid recovery (volume up + power button)
+* Sideload gapps again
