@@ -12,7 +12,8 @@
 * Now in recovery go to factory reset and confirm the reset
 * Reboot to recovery
 * Choose apply update and Apply from ADB
-* Now install crDroid zip via sideload
+* Now install crDroid zip via sideloa
+
 ```
 adb sideload crdroid.zip
 ```
