@@ -1,6 +1,6 @@
 ### Pre-installation:
 
-*  **Realme UI 4 13 - 13.1.0.158(EX01) firmware is required** 
+*  **Realme UI 4 13 - 13.1.0.159(EX01) firmware is required** 
 * Optional gapps (from download page, gapps button)
 * Optional KernelSU apk (get it on [release page](https://github.com/tiann/KernelSU/releases) from their GitHub - click "show all assets" to see the apk)
 
@@ -12,7 +12,7 @@
 * Now in recovery go to factory reset and confirm the reset
 * Reboot to recovery
 * Choose apply update and Apply from ADB
-* Now install crDroid zip via sideloa
+* Now install crDroid zip via sideload
 
 ```
 adb sideload crdroid.zip
