@@ -18,7 +18,6 @@ fastboot flash recovery TWRP-recovery-erofs-dynamic-partitions-230713.img
 * Untoggle "Unmount System before installing a ZIP
 * Wipe system, vendor, cache & metadata partition
 * Flash the crDroid (Ignore system mount error)
-
 * Reboot to recovery and then flash GApps
 * Factory Reset (Format data is recommended)
 * Reboot to system
