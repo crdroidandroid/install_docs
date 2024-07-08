@@ -32,6 +32,5 @@ When the process is complete, press "Flash Android" and reboot to recovery.
 ### Installing crDroid from recovery
 Download the crDroid ZIP file.  
 Select "Factory Reset", then "Format data / factory reset".  
-Do note that the Switch's touchscreen and joycons are not functional in recovery, you will have to use the volume and power buttons.  
 Once formatted, go back to the main menu, select "Apply Update", then "Apply from ADB".  
 Connect the switch to your computer via USB, and then on your computer, run `adb sideload [path to crdroid.zip].
