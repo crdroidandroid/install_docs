@@ -1,6 +1,6 @@
 ### Pre-installation:
 
-*  **Realme UI 4 13 - 13.1.0.159(EX01) firmware is required** 
+*  **Realme UI 4 13 - 13.1.0.161(EX01) firmware is required** 
 * Optional gapps (from download page, gapps button)
 * Optional KernelSU apk (get it on [release page](https://github.com/tiann/KernelSU/releases) from their GitHub - click "show all assets" to see the apk)
 
