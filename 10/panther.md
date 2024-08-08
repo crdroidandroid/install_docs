@@ -44,7 +44,7 @@ adb sideload zip_name.zip (where zip_name is crDroid zip for your device)
 
 ### Update installation:
 #### Via OTA:
-* Use Updater to update to latest version. Gapps and Magisk (if installed) are being kept no need to flash agagin 
+* Use Updater to update to latest version. Gapps and Magisk (if installed) are being kept no need to flash again 
 * Go to Settings -> System -> Updater and download latest build
 * Choose install and let it finish
 * Reboot
