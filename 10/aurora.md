@@ -14,7 +14,8 @@
 fastboot flash boot boot-xxxxxxxx.img
 ```
 
-* Step 4: Now boot to recovery.  
+* Step 4: Now boot to recovery.
+
 ```
 fastboot reboot recovery
 ```
