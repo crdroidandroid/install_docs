@@ -20,8 +20,8 @@
 ```
 adb sideload crDroid.zip
 ```
-* Go back to main menu and reboot to recovery to install gapps (if you don't want gapps, reboot to system)
-* To install gapps, simply sideload gapps.zip the same way you installed crDroid.zip then reboot to system
+* When asked to sideload gapps, choose 'Yes' to reboot to recovery or 'No' if you don't want gapps and want to reboot to system
+* Now if you choosed to install gapps, simply sideload gapps.zip the same way you installed crDroid.zip then reboot to system
 
 ### Update installation:
 #### Via recovery (recommended way):
