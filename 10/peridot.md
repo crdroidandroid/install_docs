@@ -6,7 +6,7 @@
 
 ### First time installation (clean flash):
 * Boot to recovery
-* Flash the provided recovery image and vendor boot image via fastboot using "fastboot flash recovery recover.img" & "fastboot flash vendor_boot vendor_boot.img"
+* Flash the provided recovery image and vendor boot image via fastboot using ***fastboot flash recovery recover.img*** & ***fastboot flash vendor_boot vendor_boot.img***
 * Reboot to recovery using either volume + and power button combo or via fastboot command
 * Navigate to Apply Update > Apply from ADB
 * adb sideload the lineage zip using "adb sideload crdroid-*-peridot.zip"
