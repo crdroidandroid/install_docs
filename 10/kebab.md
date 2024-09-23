@@ -1,7 +1,7 @@
 ### Pre-installation:
 
 *  **OnePlus8T - 14.1.0.601 firmware is required** (https://github.com/Wishmasterflo/Firmware_flasher?tab=readme-ov-file)
-* Download dtbo, vbmeta, super_empty, recovery and rom for your device (https://sourceforge.net/projects/crdroid10/files/)
+* Download dtbo, vbmeta, super_empty, recovery  (https://sourceforge.net/projects/crdroid10/files/)
 * Optional gapps (from download page, gapps button)
 
 
