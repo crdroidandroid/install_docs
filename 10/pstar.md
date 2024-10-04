@@ -12,6 +12,8 @@
 fastboot flash boot boot.img
 fastboot flash vendor_boot vendor_boot.img
 fastboot flash dtbo dtbo.img
+fastboot flash super_empty super_empty.img
+fastboot flash vbmeta vbmeta.img
 ```
 * Now boot to recovery by holding volumes
 * Apply update from adb, flash copy-partitions (adb sideload copy-partitions.zip)
