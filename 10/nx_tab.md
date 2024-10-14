@@ -15,6 +15,7 @@ You can mount your SD card from Hekate by selecting "Tools", then "USB Tools", "
 - switchroot/android/bl33.bin
 - switchroot/android/bootlogo_android.bmp
 - switchroot/android/icon_android_hue.bmp
+- switchroot/android/boot.scr
 - bootloader/ini/android.ini
 
 You can now eject your SD Card and go back to Hekate. In Hekate, select "Nyx Settings", then "Dump Joy-Con BT".  
