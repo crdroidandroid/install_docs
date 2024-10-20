@@ -1,7 +1,7 @@
 ### Pre-installation:
 
 * **NOS stable based on Android 14 firmware is required**
-* Optional gapps (from download page, gapps button)
+* Optional gapps (Download our recommended Gappshttps://sourceforge.net/projects/nikgapps/files/Elite-Releases/ionut/Android-14/13-Aug-2024/NikGapps-basic-pixels-arm64-14-20240813-signed.zip/download)
 
 
 ### First time installation (clean flash):
