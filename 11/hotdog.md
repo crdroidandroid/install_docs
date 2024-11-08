@@ -1,5 +1,5 @@
 ---
-
+# <a id="title_back">Menu:</a>  
 [First time installation (clean flash)](#title1)  
 [Update to a newer build of the same crDroid version](#title2)  
 [Upgrade to a higher version of crDroid (e.g. crDroid 10 -> crDroid 11) - Not recommended](#title3)  
@@ -177,6 +177,8 @@ Once you have installed everything successfully, you can now reboot your device 
 **Note**  
 The first boot usually takes no longer than 15 minutes, depending on the device. If it takes longer, you may have missed a step, otherwise feel free to get assistance.
 
+[<<< **Back to menu**](#title_back)
+
 ---
 
 # <a id="title2">Update to a newer build of the same crDroid version</a>
@@ -234,8 +236,9 @@ Once you have installed everything successfully, you can now reboot your device 
 
 - Click the back arrow in the top left of the screen, then ***Reboot system now***.
 
----
+[<<< **Back to menu**](#title_back)
 
+---
 
 # <a id="title3">Upgrade to a higher version of crDroid (e.g. crDroid 10 -> crDroid 11) - Not recommended</a>
 
@@ -310,5 +313,7 @@ If you want to install Google Apps add-on package, you can get on download page,
 
 ## All set!
 Once you have installed everything successfully, you can now reboot your device into the OS!
+
+[<<< **Back to menu**](#title_back)
 
 ---
