@@ -9,7 +9,7 @@
 
 ## Basic requirements
 1. Read through the instructions at least once before actually following them, so as to avoid any problems due to any missed steps!
-2. Make sure your computer has *adb* and *fastboot*.
+2. Make sure your computer has ***adb*** and ***fastboot***.
 3. Enable USB debugging on your device.
 4. Make sure that your model is actually listed in the Supported models:
     - HD1910
@@ -69,7 +69,7 @@ adb reboot bootloader
 ```
 You can also boot into fastboot mode via a key combination:
 
-- With the device powered off, hold *Volume Up* + *Volume Down* + *Power*.
+- With the device powered off, hold ***Volume Up*** + ***Volume Down*** + ***Power***.
 
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
 
@@ -79,7 +79,7 @@ fastboot devices
 If you don’t get any output or an error:
 
 - on Windows: make sure the device appears in the device manager without a triangle. Try other drivers until the command above works!
-- on Linux or macOS: If you see *no permissions fastboot* try running *fastboot* as root. When the output is empty, check your USB cable and port!
+- on Linux or macOS: If you see ***no permissions fastboot*** try running ***fastboot*** as root. When the output is empty, check your USB cable and port!
 
 5. Now type the following command to unlock the bootloader:
 
@@ -103,10 +103,10 @@ This platform requires additional partitions to be flashed for recovery to work 
 ---
 
 1. Download the latest versions of the following files from download page, recovery button.
-    - crDroidAndroid-15.0-YYYYMMDD-v11.X-*dtbo.img*
-    - crDroidAndroid-15.0-YYYYMMDD-v11.X-*vbmeta.img*
+    - crDroidAndroid-15.0-YYYYMMDD-v11.X-***dtbo.img***
+    - crDroidAndroid-15.0-YYYYMMDD-v11.X-***vbmeta.img***
 2. Power off the device, and boot it into bootloader mode:
-    - With the device powered off, hold *Volume Up* + *Volume Down* + *Power*.
+    - With the device powered off, hold ***Volume Up*** + ***Volume Down*** + ***Power***.
 3. Flash the downloaded image files to your device by typing:
 
 ```
@@ -114,9 +114,9 @@ fastboot flash dtbo crDroidAndroid-15.0-YYYYMMDD-v11.X-dtbo.img
 fastboot flash vbmeta crDroidAndroid-15.0-YYYYMMDD-v11.X-vbmeta.img
 ```
 
-## Installing crDroid Recovery using *fastboot*
+## Installing crDroid Recovery using ***fastboot***
 
-1. Download **crDroid Recovery** (see download page, recovery button). Simply download the latest recovery file, named *crDroidAndroid-15.0-YYYYMMDD-v11.X-recovery.img*.
+1. Download **crDroid Recovery** (see download page, recovery button). Simply download the latest recovery file, named ***crDroidAndroid-15.0-YYYYMMDD-v11.X-recovery.img***.
 
 **Important**  
 Other recoveries may not work for installation or updates. We strongly recommend to use the one linked above!
@@ -135,11 +135,11 @@ Now reboot into recovery.
 ## Installing crDroid from recovery
 1. Download the latest crDroid zip file.
 2. If you are not in recovery, reboot into recovery:
-    - With the device powered off, hold *Volume Down* + *Power*.
-3. Now tap *Factory Reset*, then *Format data / factory reset* and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
+    - With the device powered off, hold ***Volume Down*** + ***Power***.
+3. Now tap ***Factory Reset***, then ***Format data / factory reset*** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
 4. Return to the main menu.
-5. Sideload the crDroid.zip package but *do not reboot* before you read/followed the rest of the instructions!
-    - On the device, select *Apply Update*, then *Apply from ADB* to begin sideload.
+5. Sideload the crDroid.zip package but **do not reboot** before you read/followed the rest of the instructions!
+    - On the device, select ***Apply Update***, then ***Apply from ADB*** to begin sideload.
     - On the host machine, sideload the package using:
 
 ```
@@ -152,7 +152,7 @@ After the package is installed, recovery will inform you that reboot to recovery
 ---
 
 **Tip**  
-Normally, adb will report *Total xfer: 1.00x*, but in some cases, even if the process succeeds the output will stop at 47% and report *adb: failed to read command: Success*. In some cases it will report *adb: failed to read command: No error* or *adb: failed to read command: Undefined error: 0* which is also fine.
+Normally, adb will report **Total xfer: 1.00x**, but in some cases, even if the process succeeds the output will stop at 47% and report **adb: failed to read command: Success**. In some cases it will report **adb: failed to read command: No error** or **adb: failed to read command: Undefined error: 0** which is also fine.
 
 ---
 
@@ -163,16 +163,16 @@ If you don’t want to install any add-on (such as Google Apps), you can skip th
 ---
 
 **Warning!**  
-If you want to install Google Apps add-on package (use the *arm64* architecture), you can download it from download page, gapps button. This add-on needs to be installed *before* booting into crDroid for the first time!
+If you want to install Google Apps add-on package, you can download it from download page, gapps button. This add-on needs to be installed **before** booting into crDroid for the first time!
 
 ---
 
-1. Click *Apply Update*, then *Apply from ADB*, then *adb sideload <addon_filename>.zip* for all desired packages in sequence.
+1. Click ***Apply Update***, then ***Apply from ADB***, then ***adb sideload <addon_filename>.zip*** for all desired packages in sequence.
 
 ## All set!
 Once you have installed everything successfully, you can now reboot your device into the OS for the first time!
 
-- Click the back arrow in the top left of the screen, then *Reboot system now*.
+- Click the back arrow in the top left of the screen, then ***Reboot system now***.
 
 **Note**  
 The first boot usually takes no longer than 15 minutes, depending on the device. If it takes longer, you may have missed a step, otherwise feel free to get assistance.
@@ -188,18 +188,18 @@ crDroid strongly recommends using our builtin Updater app. Alternative methods a
 
 ---
 
-1. Open Settings, navigate to *System*, then *Updater*.
+1. Open Settings, navigate to ***System***, then ***Updater***.
 2. Click the Refresh Icon in the top right corner.
-3. Choose which update you’d like and press *Download*.
-4. When the download completes, click *Install*. Once the update process has finished, the device will display a *Reboot* button, you may need to go into the Updater menu in Settings, *System* to see it. This will reboot you into the updated system.
+3. Choose which update you’d like and press ***Download***.
+4. When the download completes, click ***Install***. Once the update process has finished, the device will display a ***Reboot*** button, you may need to go into the Updater menu in Settings, ***System*** to see it. This will reboot you into the updated system.
 
 ## Via recovery:
 1. Download the latest crDroid zip file from download page.
     - If the Google Apps add-on has been installed, then check for a new version (download page, gapps button).
 2. If you are not in recovery, reboot into recovery:
-    - With the device powered off, hold *Volume Down* + *Power*.
-3. Sideload the crDroid.zip package but *do not reboot* before you read/followed the rest of the instructions!
-    - On the device, select *Apply Update*, then *Apply from ADB* to begin sideload.
+    - With the device powered off, hold ***Volume Down*** + ***Power***.
+3. Sideload the crDroid.zip package but **do not reboot** before you read/followed the rest of the instructions!
+    - On the device, select ***Apply Update***, then ***Apply from ADB*** to begin sideload.
     - On the host machine, sideload the package using:
 
 ```
@@ -212,7 +212,7 @@ After the package is installed, recovery will inform you that reboot to recovery
 ---
 
 **Tip**  
-Normally, adb will report *Total xfer: 1.00x*, but in some cases, even if the process succeeds the output will stop at 47% and report *adb: failed to read command: Success*. In some cases it will report *adb: failed to read command: No error* or *adb: failed to read command: Undefined error: 0* which is also fine.
+Normally, adb will report **Total xfer: 1.00x**, but in some cases, even if the process succeeds the output will stop at 47% and report **adb: failed to read command: Success**. In some cases it will report **adb: failed to read command: No error** or **adb: failed to read command: Undefined error: 0** which is also fine.
 
 ---
 
@@ -223,16 +223,16 @@ If you don’t want to install any add-on (such as Google Apps), you can skip th
 ---
 
 **Warning!**  
-If you want to install Google Apps add-on package (use the *arm64* architecture), you can get on download page, gapps button. This add-on needs to be installed *before* booting into crDroid for the first time!
+If you want to install Google Apps add-on package, you can get on download page, gapps button. This add-on needs to be installed **before** booting into crDroid for the first time!
 
 ---
 
-1. Click *Apply Update*, then *Apply from ADB*, then *adb sideload <addon_filename>.zip* for all desired packages in sequence.
+1. Click ***Apply Update***, then ***Apply from ADB***, then ***adb sideload <addon_filename>.zip*** for all desired packages in sequence.
 
 ## All set!
 Once you have installed everything successfully, you can now reboot your device into the OS!
 
-- Click the back arrow in the top left of the screen, then *Reboot system now*.
+- Click the back arrow in the top left of the screen, then ***Reboot system now***.
 
 ---
 
@@ -258,7 +258,7 @@ We recommend doing a "clean install" of the new version. If you decide to upgrad
 
 The updater app does not support upgrades from one version of crDroid to another, and will block installation to any update for a different version. Upgrading manually requires similar steps to installing crDroid for the first time.
 
-1. Download the latest version of *recovery* image from download page, recovery button.
+1. Download the latest version of ***recovery*** image from download page, recovery button.
 2. Download the latest crDroid package.
 3. If you are currently using (or now want to use) an application package add-on such as Google Apps, you have the following options:
     - keep using them (download new recovery from download page, recovery button) in order to get the appropriate version.
@@ -266,9 +266,9 @@ The updater app does not support upgrades from one version of crDroid to another
     - start using them: You can only do so by performing a factory reset, which will also remove all your data. crDroid package the appropriate version now.
 4. Make sure your computer has working adb.
 5. Enable USB debugging on your device.
-6. **Important!** Remove encryption on the device (fingerprints/face/passwords/graphic keys/PIN/etc..) and set *Screen lock* to *None*.
+6. **Important!** Remove encryption on the device (fingerprints/face/passwords/graphic keys/PIN/etc..) and set ***Screen lock*** to ***None***.
 7. Power off the device, and boot it into bootloader mode:
-    - With the device powered off, hold *Volume Up* + *Volume Down* + *Power*.
+    - With the device powered off, hold ***Volume Up*** + ***Volume Down*** + ***Power***.
 8. Flash recovery onto your device:
 
 ```
@@ -277,8 +277,8 @@ fastboot flash recovery crDroidAndroid-15.0-YYYYMMDD-v11.X-recovery.img
 Now reboot into recovery.
 - Use the menu to navigate to and to select the Recovery option.
 
-5. Sideload the crDroid .zip package but *do not reboot* before you read/followed the rest of the instructions!
-    - On the device, select *Apply Update*, then *Apply from ADB* to begin sideload.
+5. Sideload the crDroid .zip package but **do not reboot** before you read/followed the rest of the instructions!
+    - On the device, select ***Apply Update***, then ***Apply from ADB*** to begin sideload.
     - On the host machine, sideload the package using:
 
 ```
@@ -291,7 +291,7 @@ After the package is installed, recovery will inform you that reboot to recovery
 ---
 
 **Tip**  
-Normally, adb will report *Total xfer: 1.00x*, but in some cases, even if the process succeeds the output will stop at 47% and report *adb: failed to read command: Success*. In some cases it will report *adb: failed to read command: No error* or *adb: failed to read command: Undefined error: 0* which is also fine.
+Normally, adb will report **Total xfer: 1.00x**, but in some cases, even if the process succeeds the output will stop at 47% and report **adb: failed to read command: Success**. In some cases it will report **adb: failed to read command: No error** or **adb: failed to read command: Undefined error: 0** which is also fine.
 
 ---
 
@@ -302,11 +302,11 @@ If you don’t want to install any add-on (such as Google Apps), you can skip th
 ---
 
 **Warning!**  
-If you want to install Google Apps add-on package (use the *arm64* architecture), you can get on download page, gapps button. This add-on needs to be installed *before* booting into crDroid for the first time!
+If you want to install Google Apps add-on package, you can get on download page, gapps button. This add-on needs to be installed **before** booting into crDroid for the first time!
 
 ---
 
-1. Click *Apply Update*, then *Apply from ADB*, then *adb sideload <addon_filename>.zip* for all desired packages in sequence.
+1. Click ***Apply Update***, then ***Apply from ADB***, then ***adb sideload <addon_filename>.zip*** for all desired packages in sequence.
 
 ## All set!
 Once you have installed everything successfully, you can now reboot your device into the OS!
