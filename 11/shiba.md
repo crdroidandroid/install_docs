@@ -2,7 +2,7 @@
 
 * Make sure you are on latest stable Pixel firmware installed
 * Recovery vendor_boot.img (from download page, recovery button)
-* Gapps (get them on [release page](https://s.go.ro/oigts9p2) from NikGapps Sourceforge)
+* Gapps ([my Nikgapps variants](https://nikgapps.com/ionutgherman) optimized for Pixels or [official NikGapps variants](https://nikgapps.com/downloads))
 * Optional if you want root, install Magisk Kitsune (get it on [release page](https://github.com/HuskyDG/magisk-files/releases) from their GitHub - click on "Assets" and download app-release apk)
 
 ### First time installation (clean flash):
@@ -43,7 +43,8 @@ adb sideload zip_name.zip (where zip_name is crDroid zip for your device)
 
 ### Update installation:
 #### Via OTA:
-* Use Updater to update to latest version. Gapps and Magisk (if installed) are being kept
+* Use Updater to update to latest version. Gapps (if installed) are being kept
 * Go to Settings -> System -> Updater and download latest build
 * Choose install and let it finish
+* After OTA update finished, don't reboot yet, go to Magisk, press on Install and install to Inactive Slot (After OTA)
 * Reboot
