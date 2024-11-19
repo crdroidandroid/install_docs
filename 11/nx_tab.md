@@ -23,15 +23,15 @@ When it succeeds, press OK.
 
 ### android.ini configuration:
 android.ini is the file that Hekate uses to provide boot settings for Android. In most cases, crDroid's default android.ini will work, but there are additonal settings you can configure if you wish.
-* `emmc=1`: Add this if you're using the eMMC instead of an SD card.
-* `usb3_enable=0`: By default `usb3_enable` is set to `1`, you may change it to `0` if you're having issues with Wi-Fi or Bluetooth, but note changing it to `0` will break MTP and ADB.
-* `ddr200-enable=1`: In Hekate, go to "Console Info" -> microSD and check "Max Bus Speed:". If the Max Bus Speed is DDR200, add this flag. DO NOT ADD THIS FLAG IF THE VALUE IS NOT DDR200! Enabling this flag on a non-DDR200 card will likely result in data loss and/or Android becoming corrupted.
+* `emmc=1` Add this if you're using the eMMC instead of an SD card.
+* `usb3_enable=0` By default usb3_enable is set to 1., you may change it to 0 if you're having issues with Wi-Fi or Bluetooth, but note changing it to 0 will break MTP and ADB.
+* `ddr200-enable=1` In Hekate, go to "Console Info" -> microSD and check "Max Bus Speed:". If the Max Bus Speed is DDR200, add this flag. DO NOT ADD THIS FLAG IF THE VALUE IS NOT DDR200! Enabling this flag on a non-DDR200 card will likely result in data loss and/or Android becoming corrupted.
 
 ### Partitioning:
 Any data on your MicroSD card will be deleted. Back it up to avoid data loss. 
 Boot into Hekate, select "Tools", then "Partition SD Card", then press "OK".  
 Make your partition scheme based on your needs.  
-Make sure to give Androd at least 10GB.  
+Make sure to give Android at least 10GB.  
 If prompted, select "Dyanmic: Android 13+".  
 Press "Next Step", then "Start".  
 When the process is complete, press "Flash Android" and reboot to recovery.
