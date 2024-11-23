@@ -7,7 +7,7 @@
   - **vendor_boot.img** (this is the recovery image file)
 * Download the latest GApps (referred to as **`gapps.zip`**).
 
-_(Files may have YYYYMMDD date in file name, download latest files in that case)_
+*(Files may have YYYYMMDD date in file name, download latest files in that case)*
 
 ---
 
@@ -19,17 +19,20 @@ _(Files may have YYYYMMDD date in file name, download latest files in that case)
 2. Connect the device to your PC via USB.
 
 3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
+
 ```
 adb -d reboot bootloader
 ```
-_(You can also power off the device, and boot it into bootloader mode by holding **Volume Down + Power**)_
+*(You can also power off the device, and boot it into bootloader mode by holding **Volume Down + Power**)*
 
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
+
 ```
 fastboot devices
 ```
 
 5. Now type the following command to unlock the bootloader:
+
 ```
 fastboot flashing unlock
 ```
@@ -42,19 +45,21 @@ fastboot flashing unlock
 1. Download and keep support files (mentioned in pre-installation) ready.
 
 2. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
+
 ```
 adb -d reboot bootloader
 ```
-_(You can also power off the device, and boot it into bootloader mode by holding **Volume Down + Power**)_
+*(You can also power off the device, and boot it into bootloader mode by holding **Volume Down + Power**)*
 
 3. Flash the downloaded image files to your device by typing:
+
 ```
 fastboot flash boot boot.img
 fastboot flash dtbo dtbo.img
 fastboot flash vendor_kernel_boot vendor_kernel_boot.img
 fastboot flash vendor_boot vendor_boot.img
 ```
-_(If support files have YYYYMMDD date prefix, rename respective img file accordingly)_
+*(If support files have YYYYMMDD date prefix, rename respective img file accordingly)*
 
 ### Step 3: Flash ROM and Gapps
 **This step can be also used for update installation**
@@ -71,6 +76,7 @@ _(If support files have YYYYMMDD date prefix, rename respective img file accordi
 5. Sideload the crdroid.zip package but do not rebootbefore you read/followed the rest of the instructions!
     On the device, tap **Apply Update** > **Apply from ADB** to begin sideload.
     On the host machine, sideload the package using:
+
 ```
 adb -d sideload filename.zip
 ```
@@ -78,6 +84,7 @@ adb -d sideload filename.zip
 6. After installing ROM package, recovery will ask reboot in recovery again for installing additional packages, reboot in recovery and
     On the device, tap **Apply Update** > **Apply from ADB** to begin sideload.
     On the host machine, sideload the package using:
+
 ```
 adb -d sideload gapps.zip
 ```
@@ -89,5 +96,5 @@ adb -d sideload gapps.zip
   - **Via OTA**: Use the in-built **Updater**. (Settings > System > Update)
   - **Via Recovery**: Follow **Step 3** above **without factory reset**.
 
-_(No need to flash GApps again if updating via OTA)_
+*(No need to flash GApps again if updating via OTA)*
 
