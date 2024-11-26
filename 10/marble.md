@@ -1,10 +1,10 @@
 **Before start flashing.....**
 
 - Always have backup of your internal storage
-- Use TWRP recovery meant for Android 14. Check the note [**#recovery**](https://sourceforge.net/projects/marble-builds/files/recovery/%5BREC%5D3.7.1_12-RedmiNote12Turbo%5BEdition%5D-POCOF5_v8.6_A14-marble-skkk.img/download)
+- Use TWRP recovery meant for Android 14 (download page, recovery button)
 - To retain TWRP recovery after rom flash, don't forget to tick the option "Automatically Reflash TWRP after flashing a rom" in recovery. Else TWRP will be replaced by recovery from rom
-- For Kernel SU, check note [#ksu](https://sourceforge.net/projects/marble-builds/files/losksu/)
-- For vanilla variant, if u need gapps, [**Nikgapps is Recommended**](https://nikgapps.com/crdroid-official)
+- For Kernel Su (check [here](https://sourceforge.net/projects/marble-builds/files/losksu/))
+- Gapps (download page, gapps button)
 ----
 
 ## If already on HyperOS based custom rom
