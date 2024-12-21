@@ -29,9 +29,11 @@ fastboot devices
 ```
 fastboot flash boot boot.img
 ```
+
 ```
 fastboot flash dtbo dtbo.img
 ```
+
 ```
 fastboot flash vendor_boot vendor_boot.img
 ```
