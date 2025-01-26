@@ -6,7 +6,7 @@
   * boot.img
   * dtbo.img
   * super_empty.img
-  * ...and then the latest OTA zip for you device (crDroidAndroid-14.0-xxx.zip)
+  * ...and then the latest OTA zip for you device (crDroidAndroid-15.0-xxx.zip)
 
 *Do ***NOT*** substitute ***any*** of these files with files that you've downloaded elsewhere if you want support for your installation.*
 
@@ -50,7 +50,7 @@ fastboot flash dtbo dtbo.img
 * Use the adb sideload command with the ROM file:
 
 ``` 
-adb sideload crDroidAndroid-14.0-xxx.zip
+adb sideload crDroidAndroid-15.0-xxx.zip
 ```
 
 ### Update installation:
@@ -61,7 +61,7 @@ adb sideload crDroidAndroid-14.0-xxx.zip
   * Use the adb sideload command to flash the update file:
 
 ```
-adb sideload crDroidAndroid-14.0-xxx.zip
+adb sideload crDroidAndroid-15.0-xxx.zip
 ```
 
 * Reboot the device:
