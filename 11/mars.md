@@ -19,7 +19,7 @@
 ## Flashing additional partitions
 > **Warning:** This platform requires additional partitions to be flashed for recovery to work properly, the process to do so is described below.
 
-1. Download the following files from [here](https://crdroid.net/mars/11):
+1. Download the following files from [here](https://sourceforge.net/projects/crdroid/files/mars/11.x/recovery/):
    - **dtbo.img**
    - **vendor_boot.img**
 2. **Power off the device, and boot it into bootloader mode:**
@@ -67,7 +67,7 @@ adb -d sideload filename.zip
 ## Installing Add-Ons
 > **Note:** If you don’t want to install any add-on (such as Google Apps), you can skip this whole section!
 >
-> **Warning:** If you want to install Google Apps add-on package (use the arm64 architecture), you can download it from [here - gapps button](https://crdroid.net/mars/11). This add-on needs to be installed before booting into crDroid for the first time!
+> **Warning:** If you want to install Google Apps add-on package (use the arm64 architecture), you can download it from [here - gapps button](https://wiki.lineageos.org/gapps/). This add-on needs to be installed before booting into crDroid for the first time!
 1. Click Apply Update, then Apply from ADB, then:
 
 ```
