@@ -20,23 +20,25 @@
 > **Warning:** This platform requires additional partitions to be flashed for recovery to work properly, the process to do so is described below.
 
 1. Download the following files from [here](https://crdroid.net/mars/11):
-   - `dtbo.img`
-   - `vendor_boot.img`
+   - **dtbo.img**
+   - **vendor_boot.img**
 2. **Power off the device, and boot it into bootloader mode:**
    - With the device powered off, hold Volume Down + Power. Keep holding both buttons until the word “FASTBOOT” appears on the screen, then release.
 3. **Flash the downloaded image files to your device by typing:**
-   ```sh
-   fastboot flash dtbo dtbo.img
-   fastboot flash vendor_boot vendor_boot.img
-   ```
+
+```
+fastboot flash dtbo dtbo.img
+fastboot flash vendor_boot vendor_boot.img
+```
 
 ## Installing crDroid Recovery using fastboot
-1. **Download crDroid Recovery**. Simply download the latest recovery file, named `boot.img`.
+1. **Download crDroid Recovery**. Simply download the latest recovery file, named **boot.img**.
 > **Important:** Other recoveries may not work for installation or updates. We strongly recommend to use the one linked above!
 2. **Flash recovery onto your device:**
-   ```sh
-   fastboot flash boot boot.img
-   ```
+
+```
+fastboot flash boot boot.img
+```
 3. **Now reboot into recovery to verify the installation. Do not reboot into the existing OS, since it will overwrite the recovery you just installed!**
    - With the device powered off, hold Volume Up + Power. Keep holding both buttons until the “MI” logo appears on the screen, then release.
 
@@ -53,21 +55,23 @@
 5. **Sideload the crDroid .zip package but do not reboot before you read/followed the rest of the instructions!**
    - On the device, select “Apply Update”, then “Apply from ADB” to begin sideload.
    - On the host machine, sideload the package using:
-     ```sh
-     adb -d sideload filename.zip
-     ```
+   
+```
+adb -d sideload filename.zip
+```
 
 > **Tip:** After the package is installed, recovery will inform you that reboot to recovery is required to install add-ons. In case you want to do that, please select “Yes,” otherwise “No”.
 >
-> **Tip:** Normally, adb will report `Total xfer: 1.00x`, but in some cases, even if the process succeeds the output will stop at 47% and report `adb: failed to read command: Success`. In some cases it will report `adb: failed to read command: No error` or `adb: failed to read command: Undefined error: 0` which is also fine.
+> **Tip:** Normally, adb will report **Total xfer: 1.00x**, but in some cases, even if the process succeeds the output will stop at 47% and report **adb: failed to read command: Success**. In some cases it will report **adb: failed to read command: No error** or **adb: failed to read command: Undefined error: 0** which is also fine.
 
 ## Installing Add-Ons
 > **Note:** If you don’t want to install any add-on (such as Google Apps), you can skip this whole section!
 >
-> **Warning:** If you want to install Google Apps add-on package (use the arm64 architecture), you can download it from [here](https://wiki.lineageos.org/gapps). This add-on needs to be installed before booting into crDroid for the first time!
+> **Warning:** If you want to install Google Apps add-on package (use the arm64 architecture), you can download it from [here - gapps button](https://crdroid.net/mars/11). This add-on needs to be installed before booting into crDroid for the first time!
 1. Click Apply Update, then Apply from ADB, then:
-   ```sh
-   adb -d sideload filename.zip
-   ```
+
+```
+adb -d sideload filename.zip
+```
    for all desired packages in sequence.
-2. When presented with a screen that says **Signature verification failed**, click **Yes**. It is expected as add-ons aren’t signed with LineageOS’s official keys.
+3. When presented with a screen that says **Signature verification failed**, click **Yes**. It is expected as add-ons aren’t signed with LineageOS’s official keys.
