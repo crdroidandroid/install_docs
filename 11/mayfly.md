@@ -10,7 +10,7 @@
    - M2102K1AC
 5. **Boot your device with the stock OS at least once and check every functionality.**
 
-> **Warning:** Make sure that you can send and receive SMS and place and receive calls (also via WiFi and LTE, if available), otherwise it won’t work on crDroid either! Additionally, some devices require that VoLTE/VoWiFi be utilized once on stock to provision IMS.  
+> **Warning:** Make sure that you can send and receive SMS and place and receive calls (also via WiFi and LTE, if available), otherwise it won’t work on crDroid either! Additionally, some devices require that VoLTE/VoWiFi be utilized once on stock to provision IMS.   
 6. **Remove all Google accounts from your device to avoid “Factory reset protection”**.  
 7. **crDroid is provided as-is with no warranty. While we attempt to verify everything works you are installing this at your own risk!**  
 
