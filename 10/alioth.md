@@ -11,7 +11,7 @@
 * Make use of recovery (from download page, recovery button - I'm using OFox)
 * Boot recovery
 * Flash OS1.0.2.0.TKHMIXM (skip if you are already on this version)
-* Flash crDroid 11.x (toggle auto flash twrp)
+* Flash crDroid 10.x (toggle auto flash twrp)
 * Reboot recovery
 * (optional) flash Gapps (no auto toggle needed)
 * (optional) flash Magisk (no auto toggle needed) (but ROM is kSU ready so ... )

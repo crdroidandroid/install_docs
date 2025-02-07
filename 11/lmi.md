@@ -2,7 +2,7 @@
 
 * Firmware V14.0.1.0.SJKMIXM mandatory (from download page, firmware button)
 * Optional gapps (from download page, gapps button)
-* Optional KernelSU apk (get it on [releases](https://github.com/tiann/KernelSU/releases) from GitHub - click "show all assets" to see the apk)
+* Optional KernelSU Next apk (get it on [releases](https://github.com/rifsxd/KernelSU-Next/releases) from GitHub - click "show all assets" to see the apk)
 
 
 ### First time installation (clean flash):
