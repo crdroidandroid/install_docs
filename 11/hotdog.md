@@ -6,9 +6,9 @@
 Optional: KernelSU-Next Manager apk (get it on [release page](https://github.com/rifsxd/KernelSU-Next/releases) from GitHub)  
 
 ---
-# <a id="title1">First time installation (clean flash):</a>
 
-## Basic requirements
+## Basic requirements# <a id="title1">First time installation (clean flash):</a>
+
 1. Read through the instructions at least once before actually following them, so as to avoid any problems due to any missed steps!
 2. Make sure your computer has ***adb*** and ***fastboot***.
 3. Enable USB debugging on your device.
