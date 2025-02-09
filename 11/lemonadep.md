@@ -2,7 +2,7 @@
 
 * **OOS 14 - 14.0.0.730(EX01) firmware is required** (from download page, firmware button)
 * Optional gapps (from download page, gapps button)
-* Optional KernelSU apk by **rsuntk** (get it on [release page](https://github.com/rsuntk/KernelSU/releases) from GitHub)
+* Optional KernelSU Next (get it on [release page](https://github.com/rifsxd/KernelSU-Next/releases) from GitHub - click on Show all assets text link and scroll down to the apk)
 
 
 ### First time installation (clean flash):
