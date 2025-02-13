@@ -30,7 +30,7 @@
    > **If you don't care about encryption, you can disable it within OrangeFox recovery: [demonstration](https://imgur.com/nexuU1q) (you should see "Disable FBE" button instead).**
 7. Flash Android 7 (Nougat) based firmware from the *"Pre-installation"* section
 8. Flash Gapps [NikGapps T ARM64-Core] *(Optional)*
-9. Flash Magisk Root/KernelSU *(Optional)*
+9. Flash Magisk Root *(Optional)*
 10. Reboot to the system
 
 ### Update installation:
