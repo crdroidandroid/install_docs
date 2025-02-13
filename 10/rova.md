@@ -3,7 +3,7 @@
 * OrangeFox recovery
     - [Download for Redmi 4A (rolex)](https://forum.xda-developers.com/t/unofficial-recovery-rolex-riva-orangefox-recovery-project-12-06-22-r11-1_1-fde-fbe.4457411/)
     - [Download for Redmi 5A (riva)](https://forum.xda-developers.com/t/unofficial-recovery-rolex-riva-orangefox-recovery-project-12-06-22-r11-1_1-fde-fbe.4457413/)
-* Gapps ([Download from here](https://nikgapps.com/downloads))
+* Gapps (check download page, gapps button)
 * Magisk 20.0 or newer for root (after first boot) - ([Download from here](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445))
 * KernelSU (KSU) (NOTE: KernelSU-NEXT replaced KernelSU since crDroid 10.12)
     - [Download for crDroid 10.11 or lower](https://github.com/tiann/KernelSU/releases/download/v1.0.1/KernelSU_v1.0.1_11928-release.apk)
@@ -37,11 +37,11 @@
 
 #### OTA
 
-Check `Settings` > `System` > `Updater`
+Check **Settings** > **System** > **Updater**
 
 #### Local Update
 
-Check `Settings` > `System` > `Updater` > `Three dots` > `Local Update`
+Check **Settings** > **System** > **Updater** > **Three dots** > **Local Update**
 
 #### Recovery
 
