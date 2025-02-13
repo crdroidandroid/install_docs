@@ -3,7 +3,7 @@
 * OrangeFox recovery
     - [Download for Redmi 4A (rolex)](https://forum.xda-developers.com/t/unofficial-recovery-rolex-riva-orangefox-recovery-project-12-06-22-r11-1_1-fde-fbe.4457411/)
     - [Download for Redmi 5A (riva)](https://forum.xda-developers.com/t/unofficial-recovery-rolex-riva-orangefox-recovery-project-12-06-22-r11-1_1-fde-fbe.4457413/)
-* Gapps ([Download from here](https://nikgapps.com/downloads))
+* Gapps (check download page, gapps button)
 * Magisk 20.0 or newer for root (after first boot) - ([Download from here](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445))
 * Firmware
     - [Download for Redmi 4A (rolex)](https://sourceforge.net/projects/xiaomi-firmware-updater/files/Stable/V10/rolex/fw_rolex_miui_HM4AGlobal_V10.2.3.0.NCCMIXM_69d07208fd_7.1.zip/download)
@@ -41,11 +41,11 @@
 
 #### OTA
 
-Check `Settings` > `System` > `Updater`
+Check **Settings** > **System** > **Update**
 
 #### Local Update
 
-Check `Settings` > `System` > `Updater` > `Three dots` > `Local Update`
+Check **Settings** > **System** > **Updater** > **Three dots** > **Local Update**
 
 #### Recovery
 
