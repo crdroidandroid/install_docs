@@ -1,9 +1,10 @@
 ---
 
-[Read before installation)](#title1)  
+[Read before installation](#title1)  
 [Prepare everything before installation](#title2)  
 [First time installation (Clean Flash)](#title3)  
 [Update to a newer build of the same crDroid version](#title4)  
+[Troubleshot](#title5) 
 
 ---
 
@@ -28,38 +29,22 @@
 
 # <a id="title3">First time installation (Clean Flash)</a>
 
-* NOTE: If you are comming from Stock ROM or another Custom ROM you should follow this instructions
+## If you are coming from Non - Dynamic ROM
 
-1. Connect your phone to PC and enter to fastboot mode 
-- With the device powered off, hold ***Volume Down*** + ***Power**
-2. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS)
-3. Once the device is in fastboot mode, verify your PC finds it by typing:
-
-```
-fastboot devices
-```
-If you don’t get any output or an error:
-
-- on Windows: make sure the device appears in the device manager without a triangle. Try other drivers until the command above works!
-- on Linux or macOS: If you see ***no permissions fastboot*** try running ***fastboot*** as root. When the output is empty, check your USB cable and port!
-
-4. Now type the following command for flashing recovery:
-
-```
-fastboot flash recovery recovery.img
-```
-
-5. Reboot to recovery 
+1. Reboot to recovery 
 - With the device powered off, hold ***Volume UP*** + ***Power**
-6. Now wipe
+2. Now wipe
     - System
     - Vendor
     - Data
     - Dalvik 
     - Cache
     - Metadata
-7. Untick Unmount System before installing a ZIP in Settings
-8. Flash given Dynamic Partition Converter
+3. Install given recovery on Download page
+- via SD card or OTG, go to files >> select recovery.img >> flash to recovery
+4. After flashing given recovery reboot to your new recovery
+5. Untick **Unmount System before installing** a ZIP in Settings
+6. Flash Retrofit Dynamic Partition Converter
 - via SD Card or OTG, go to files >> dynamicconverter.zip
 - via ADB Sideload:
 
@@ -67,7 +52,7 @@ fastboot flash recovery recovery.img
 adb sideload dynamicconverter.zip
 ```
 
-9. Now Flash the given firmware for your device
+7. Flash Firmware
 - via SD card or OTG, go to files >> firmwareforyourdevice.zip
 - via ADB Sideload: 
 
@@ -75,7 +60,7 @@ adb sideload dynamicconverter.zip
 adb sideload firmwareforyourdevice.zip
 ```
 
-10. Finally, Now Flash the ROM.Zip
+8. Finally, Now Flash the ROM.Zip
 - via SD card or OTG, go to files >> Flash crDroidAndroid-15.0-XXXXXXXX-ginkgo-V11.X.zip
 - via ADB Sideload:
 
@@ -86,7 +71,7 @@ adb sideload crDroidAndroid-15.0-XXXXXXXX-ginkgo-V11.X.zip
 **Tip** 
 Skip this step if you don't want Google Apps (GApps)
 
-11. Flash get Google Apps (GApps):
+9. Flash if you get Google Apps (GApps):
 - via SD card or OTG, go to files >> GApps.zip
 - via ADB Sideload:
 
@@ -94,10 +79,41 @@ Skip this step if you don't want Google Apps (GApps)
 adb sideload GApps.zip
 ```
 
-12. Format data 
-13. Reboot to the System (Ignore No OS Installed warning)
-14. Done
+10. Format data 
+11. Reboot to the System (Ignore No OS Installed warning)
+12. Voila
+---
 
+## If you are coming from another dynamic ROM
+
+1. Reboot to Recovery
+2. Wipe
+    - System
+    - Vendor
+    - Data
+    - Dalvik 
+    - Cache
+    - Metadata
+3. Finally, Now Flash the ROM.Zip
+- via SD card or OTG, go to files >> Flash crDroidAndroid-15.0-XXXXXXXX-ginkgo-V11.X.zip
+- via ADB Sideload:
+
+```
+adb sideload crDroidAndroid-15.0-XXXXXXXX-ginkgo-V11.X.zip
+```
+
+**Tip** 
+Skip this step if you don't want Google Apps (GApps)
+
+4. Flash get Google Apps (GApps):
+- via SD card or OTG, go to files >> GApps.zip
+- via ADB Sideload:
+
+```
+adb sideload GApps.zip
+```
+
+5. Voila!
 ----
 
 # <a id="title4">Update to a newer build of the same crDroid version</a>
@@ -113,32 +129,36 @@ crDroid strongly recommends using our builtin Updater app. Alternative methods a
 2. Click the Refresh Icon in the top right corner.
 3. Choose which update you’d like and press ***Download***.
 4. When the download completes, click ***Install***. Once the update process has finished, the device will display a ***Reboot*** button, you may need to go into the Updater menu in Settings, ***System*** to see it. This will reboot you into the updated system.
+---
 
 ## Via recovery:
-1. Download the latest crDroid zip file from download page.
-    - If the Google Apps add-on has been installed, then check for a new version (download page, gapps button).
-2. If you are not in recovery, reboot into recovery:
-    - With the device powered off, hold ***Volume UP*** + ***Power***.
-3. Flash the crDroid.zip package but **do not reboot** before you read/followed the rest of the instructions!
- - via SD card or OTG, go to files >> Flash crDroidAndroid-15.0-XXXXXXXX-ginkgo-V11.X.zip
- - via ADB Sideload:
+
+1. Reboot to Recovery 
+2. Flash the update zip
+- via SD card or OTG, go to files >> Flash crDroidAndroid-15.0-XXXXXXXX-ginkgo-V11.X.zip
+- via ADB Sideload:
 
 ```
 adb sideload crDroidAndroid-15.0-XXXXXXXX-ginkgo-V11.X.zip
 ```
 
-**Tip**
-Skip this step if you are not using Google Apps (GApps)
+3. Reboot System
+4. Voila
+---
 
-4. Flash GApps
-- via SD card or OTG, go to files >> GApps.zip
-- via ADB Sideload:
+# <a id="title5">Troubleshot</a>
 
-```
-adb sideload GApps.zip
-```
+1. Wifi/Bluetooh is not working
 
-5. Reboot to the the system
-6. Done.
+Q: Why am I having this problem?
+A: This is a problem with the kernel module, wifi and bluetooth module cannot be loaded after the first boot of the rom.S*ome users experience this problem while others do not, which is a strange situation.
+
+*Solution:
+1.Shut down phone
+2.Turn on phone
+
+**Notes**
+- Do not reboot, apply this way
+- If you have another problems or do you want report any bug, get support click 'support' section on Donwload page!
 
 ---
