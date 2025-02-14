@@ -2,7 +2,7 @@
 
 * Recovery (from download page, recovery button)
 * Optional gapps (from download page, gapps button)
-* Optional KernelSU Next (get it on [release page](https://github.com/rifsxd/KernelSU-Next/releases) from GitHub - click on Show all assets text link and scroll down to the apk)
+* Optional KernelSU apk by **rsuntk** (get it on [release page](https://github.com/rsuntk/KernelSU/releases) from GitHub)
 
 
 ### First time installation (clean flash):
