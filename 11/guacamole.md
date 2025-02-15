@@ -2,7 +2,7 @@
 
 * **OOS 12 H.41 firmware is mandatory** (from download page, firmware button)
 * Optional gapps (from download page, gapps button)
-* Optional KernelSU Next (get it on [release page](https://github.com/rifsxd/KernelSU-Next/releases) from GitHub)
+* Optional KernelSU apk by **rsuntk** (get it on [release page](https://github.com/rsuntk/KernelSU/releases) from GitHub)
 
 
 ### First time installation (clean flash):
