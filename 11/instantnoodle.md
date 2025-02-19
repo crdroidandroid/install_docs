@@ -13,11 +13,13 @@
 
 1. Connect the device to your PC via USB.
 2. Verify your device is being recognized by computer by opening a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
+
 ```
 adb devices
 ```
 You sould see your device listed.
 3. Reboot to bootloader by typing:
+
 ```
 adb -d reboot bootloader
 ```
@@ -26,11 +28,13 @@ You can also boot into fastboot mode via a key combination:
 - With the device powered off, hold ***Volume Up*** + ***Volume Down*** + ***Power***.
 
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
+
 ```
 fastboot devices
 ```
 
-5. Now type the following command to unlock the bootloader: 
+5. Now type the following command to unlock the bootloader:
+
 ```
 fastboot oem unlock
 ```
@@ -47,10 +51,12 @@ If you are coming from another custom rom, make sure you have the latest firmwar
 - Download vbmeta, recovery and rom.
 - Download gapps (optional).
 - Reboot your device into bootloader.
+
 ```
 adb reboot bootloader
 ``` 
 - Flash the vbmeta and recovery to your device
+
 ```
 fastboot flash vbmeta vbmeta.img
 fastboot flash recovery recovery.img
@@ -59,6 +65,7 @@ fastboot flash recovery recovery.img
 - While in recovery, tap factory reset and then wipe data to format the device.
 - Now return to main menu and tap on *Apply Update* and then *Apply from ADB* 
 - On your computer, install the rom using
+
 ```
 adb sideload crDroid.zip
 ```
