@@ -6,14 +6,14 @@
 
 ### First time installation (clean flash):
 
+* Flash recovery
 * Reboot in recovery
 * Format data
 * Install last firmware your region
-* Reboot recovery
 * Install rom.zip
 * Reboot recovery 
 * Install gapps (optional)
-* Start system
+* Reboot system
 
 ```
 adb sideload crDroid.zip
