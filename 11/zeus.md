@@ -1,33 +1,27 @@
-### Flashing Instructions:
+## Flashing Instructions:
 
-### For existing custom users (Use LineageOS recovery or Crdroid Recovery) :-
-
-1. Do a Factory reset via Lineage/Crdroid Recovery. (Other Recoveries :- Wipe Dalvik/Art Cache, cache and data)
-
-2. Sideload the rom zip file using adb :-
+### First time installation:
+1. Do a factory reset via recovery (include wipe falvik / art cache, cache and data if available in rocovery options).  
+2. Sideload the rom zip file using adb.
 
 ```
 adb sideload crDroidAndroid.zip
 ```
+3. Reboot to Recovery if want to flash any other modules else reboot to system and enjoy!.
 
-3. Reboot to Recovery if want to flash any other modules else Reboot to system and enjoy!.
 
-
-### For Update/OTA (Use LineageOS recovery or Crdroid Recovery / OTA Updater) :-
-
-### Via Use LineageOS recovery or Crdroid Recovery:-
-
-1. Sideload the rom zip file using adb
+## For Update/OTA:
+### Via recovery:  
+1. Sideload the rom zip file using adb.  
 
 ```
 adb sideload crDroidAndroid.zip
 ```
+2. Reboot to Recovery if want to flash any other modules else Reboot to system and enjoy!.
 
-3. Reboot to Recovery if want to flash any other modules else Reboot to system and enjoy!.
-
-#### Via OTA:
-* Go to Settings -> System -> Updater and download latest build
-* Choose install and let it finish
-* Reboot
+### Via OTA:
+1. Go to Settings -> System -> Updater and download latest build.  
+2. Choose install and let it finish.  
+3. Reboot.  
 
 Your device should now be updated!
