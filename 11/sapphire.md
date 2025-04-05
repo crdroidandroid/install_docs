@@ -3,8 +3,8 @@
 ### Pre-installation:
 
 - Firmware
-  - 1.0.7.0 for sapphire [Firmware](https://xmfirmwareupdater.com/archive/firmware/sapphire/)
-  - 1.0.10.0 for sapphiren [Firmware](https://xmfirmwareupdater.com/archive/firmware/sapphiren/)
+  - 2.0.10.0 for sapphire [Firmware](https://xmfirmwareupdater.com/archive/firmware/sapphire/)
+  - 2.0.9.0 for sapphiren [Firmware](https://xmfirmwareupdater.com/archive/firmware/sapphiren/)
 - Optional GApps (from download page, GApps button)
 - Recovery (from download page, Recovery button)
 - RO2RW [Sourceforge](https://sourceforge.net/projects/multi-function-patch/files/RO2RW/)
