@@ -2,10 +2,10 @@
 
 * Download the needed files for download page
 
-* Required device files for first-time retrofit dynamic partitions conversion:
+* Required device files for first-time install:
   * boot.img
   * dtbo.img
-  * super_empty.img
+  * ocean_gpt.bin
   * ...and then the latest OTA zip for you device (crDroidAndroid-15.0-xxx.zip)
 
 *Do ***NOT*** substitute ***any*** of these files with files that you've downloaded elsewhere if you want support for your installation.*
@@ -21,10 +21,10 @@
 fastboot devices
 ```
 
-* Wipe the "super" partition:
+* Flash ocean_gpt:
 
 ```
-fastboot wipe-super super_empty.img
+fastboot flash gpt ocean_gpt.bin
 ```
 * Flash the required images:
 * Boot image:
