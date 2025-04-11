@@ -3,8 +3,8 @@
 - Always have backup of your internal storage
 - Use Unofficial OFOX recovery meant for mondrian (download page, recovery button)
 - To retain OFOX recovery after rom flash, don't forget to tick the option "Automatically Reflash OFOX after flashing a rom" in recovery. Else OFOX will be replaced by recovery from rom
-- For OFOX zip, [here](https://t.me/keoshlap/44)
-- Download latest A14 FW only for your region [here](https://xmfirmwareupdater.com/archive/firmware/mondrian/) *Mandatory* 
+- For OFOX zip, [here](https://t.me/keoshlap/52)
+- HyperOS FW included
 - Gapps (download page, gapps button)
 - Optional KernelSU Next apk (get it on [release page](https://github.com/KernelSU-Next/KernelSU-Next/releases) from GitHub)
 ----
