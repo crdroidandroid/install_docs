@@ -2,7 +2,7 @@
 
 * **ColorOS 15 is required**
 * A pc with platform-tools working (adb/fastboot)
-
+* [Link](https://pixeldrain.com/u/ixCXnvKf) to download super_empty.img 
 
 ### First time installation (clean flash):
 
@@ -36,6 +36,23 @@ fastboot flash recovery recovery.img
 adb sideload crDroid.zip
 ```
 * Go back to main menu and reboot to system
+
+### Possible situations of first time installation
+#### Error 7 in first time installation
+If you got **Error applying update: 7(ErrorCode::kInstallDeviceOpenError)**, you can follow these steps
+* Reboot to bootloader
+* Flash super_empty
+
+```
+fastboot wipe-super super_empty.img
+```
+* Press the volume key and power key to enter recovery
+* Follow the guide of first time installation
+
+If you got no booting after finished all steps, you can follow these steps
+* Reboot to bootloader
+* Press the volume key and power key to enter recovery
+* Follow the guide of first time installation and flash again(NO need to flash super_empty again)
 
 ### Update installation:
 #### Via recovery (recommended):
