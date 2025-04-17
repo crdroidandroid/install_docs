@@ -47,12 +47,15 @@ If you got **Error applying update: 7(ErrorCode::kInstallDeviceOpenError)**, you
 fastboot wipe-super super_empty.img
 ```
 * Press the volume key and power key to enter recovery
-* Follow the guide of first time installation
+* In recovery mode, navigate to **Apply update -> Apply from ADB**.
+* Sideload the ROM:
 
-If you got no booting after finished all steps, you can follow these steps
-* Reboot to bootloader
-* Press the volume key and power key to enter recovery
-* Follow the guide of first time installation and flash again(NO need to flash super_empty again)
+```
+adb sideload crDroid.zip
+```
+* Reboot to Recovery mode and sideload the ROM again
+* In recovery mode, navigate to **Factory reset -> Format data/factory reset** and confirm to format the device.
+* Reboot and Enjoy
 
 ### Update installation:
 #### Via recovery (recommended):
