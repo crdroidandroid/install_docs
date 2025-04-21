@@ -1,6 +1,6 @@
 ### Pre-installation:
 
-* **NOS stable based on Android 14 firmware is required**
+* **NOS stable based on Android 15 firmware is required**
 * Optional gapps (from download page, gapps button)
 
 
