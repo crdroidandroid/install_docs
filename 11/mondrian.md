@@ -15,7 +15,6 @@
 - Download the ROM and Gapps package from nikgapps
 - Boot into recovery
 - Wipe Dalvik/Art Cache, cache and Data
-- Flash FW
 - Flash the ROM
 - Reboot into recovery again to switch slots
 - Flash Gapps (download page, gapps button)
@@ -25,7 +24,6 @@
 - Download the ROM
 - Boot into recovery
 - Wipe Dalvik/ArtCache and Cache
-- Flash FW
 - Flash the ROM
 - Reboot into recovery again to switch slots
 - Flash Gapps (download page, gapps button)
@@ -39,7 +37,6 @@
 - Download the ROM
 - Boot into recovery
 - Wipe Dalvik/Art Cache, cache and Data
-- Flash FW
 - Flash the ROM 
 - Tap on format data, type yes and reboot to system
 
@@ -47,7 +44,6 @@
 - Download the ROM
 - Boot into recovery
 - Wipe Dalvik/ArtCache and Cache
-- Flash FW
 - Flash the ROM
 - Reboot To System
 
