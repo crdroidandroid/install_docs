@@ -1,6 +1,6 @@
 ### Pre-installation:
 
-* **hyperos latest stable based on Android 14 firmware is required As of now **
+* **hyperos latest stable based on Android 15 firmware is required As of now HOS 2.0.XXX **
 * Optional gapps (from download page, gapps button)
 
 
