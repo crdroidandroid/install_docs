@@ -9,11 +9,13 @@
 
 * Boot your device into fastboot mode
 * Flash crDroid recovery:
+
 ```
 fastboot flash recovery recovery.img
 ```
 * Boot into recovery and format data (this will wipe all data)
 * In recovery, tap on *Apply update* and sideload the latest ROM:
+
 ```
 adb sideload crDroid-XX.0-nuwa-xxxxxxxx.zip
 ```
@@ -21,6 +23,7 @@ adb sideload crDroid-XX.0-nuwa-xxxxxxxx.zip
   * Choose **Yes** to reboot back into recovery and sideload GApps
   * Choose **No** to skip GApps and directly reboot to system
 * If you chose **Yes**, sideload GApps package the same way:
+
 ```
 adb sideload <gapps-package>.zip
 ```
@@ -29,10 +32,12 @@ adb sideload <gapps-package>.zip
 
 * Boot into crDroid recovery
 * Sideload the latest crDroid ROM:
+
 ```
 adb sideload crDroid-XX.0-nuwa-xxxxxxxx.zip
 ```
 * (Optional) Reboot to recovery and sideload GApps if needed:
+
 ```
 adb sideload <gapps-package>.zip
 ```
@@ -45,6 +50,7 @@ adb sideload <gapps-package>.zip
 * If you're using GApps:
   * Reboot to recovery after OTA finishes
   * Sideload your GApps package again:
+
 ```
 adb sideload <gapps-package>.zip
 ```
