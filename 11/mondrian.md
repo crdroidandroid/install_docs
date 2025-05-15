@@ -6,7 +6,7 @@
 - For OFOX zip, [here](https://t.me/keoshlap/55)
 - HyperOS FW included
 - Gapps (download page, gapps button)
-- Optional KernelSU Next apk (get it on [release page](https://github.com/KernelSU-Next/KernelSU-Next/releases) from GitHub)
+- Optional SukiSU-Ultra apk (get it on [release page](https://github.com/ShirkNeko/SukiSU-Ultra/releases) from GitHub)
 ----
 
 ## Gapps variant
