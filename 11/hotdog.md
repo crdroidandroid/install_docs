@@ -3,7 +3,7 @@
 [First time installation (clean flash)](#title1)  
 [Update to a newer build of the same crDroid version](#title2)  
 [Upgrade to a higher version of crDroid (e.g. crDroid 10 -> crDroid 11) - Not recommended](#title3)  
-Optional: KernelSU-Next Manager apk (get it on [release page](https://github.com/rifsxd/KernelSU-Next/releases) from GitHub)  
+Optional: KernelSU Manager @rsuntk fork (get it on [release page](https://github.com/rsuntk/KernelSU/releases) from GitHub)  
 
 ---
 # <a id="title1">First time installation (clean flash):</a>
