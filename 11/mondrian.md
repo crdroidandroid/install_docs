@@ -3,7 +3,7 @@
 - Always have backup of your internal storage
 - Use Unofficial OFOX recovery meant for mondrian (download page, recovery button)
 - To retain OFOX recovery after rom flash, don't forget to tick the option "Automatically Reflash OFOX after flashing a rom" in recovery. Else OFOX will be replaced by recovery from rom
-- For OFOX zip, [here](https://t.me/keoshlap/55)
+- For OFOX zip, [here](https://t.me/keoshlap/71)
 - HyperOS FW included
 - Gapps (download page, gapps button)
 - Optional SukiSU-Ultra apk (get it on [release page](https://github.com/ShirkNeko/SukiSU-Ultra/releases) from GitHub)
