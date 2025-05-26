@@ -1,9 +1,10 @@
 ### Pre-installation:
 You will need to mod your Nintendo Switch. The [NH Switch Guide](https://nh-server.github.io/switch-guide/) supports all Switch models. Do note that unless you have a v1 Switch, you will need to install a modchip. 
 
-It is recommended to be running the latest [Hekate](https://github.com/CTCaer/hekate/releases/latest). For Android 15, you **must** be running at least Hekate 6.1.0.  
+It is recommended to be running the latest [Hekate](https://github.com/CTCaer/hekate/releases/latest). For crDroid 11, you **must** be running at least Hekate 6.1.0.  
 You can optionally install [Magisk](https://github.com/topjohnwu/Magisk/releases/latest) or GApps.  
-You will need a MicroSD card that is at least 16GB, Samsung SD cards tend to work best with Android. While crDroid does support eMMC installation, it is not covered in this guide as SD Card installation is recommended. You can follow [Switchroot's guide](https://wiki.switchroot.org/wiki/android/14-u-emmc-boot-guide) if you wish to install on the eMMC. Do note you still will need an SD card for Hekate if you're using the eMMC, but the size does not matter if Android is installed on the eMMC, as Hekate is only about 1MB.   
+You will need a MicroSD card that is at least 16GB, Samsung SD cards tend to work best with crDroid. While crDroid does support eMMC installation, it is not covered in this guide as SD Card installation is recommended. You can follow [Switchroot's guide](https://wiki.switchroot.org/wiki/android/14-u-emmc-boot-guide) if you wish to install on the eMMC. Do note you still will need an SD card for Hekate if you're using the eMMC, but the size does not matter if crDroid is installed on the eMMC, as Hekate is only about 1MB.   
+If you have not already, you must boot HOS (the stock Switch OS) with your Joy-Cons attached, or else Joy-Cons will not work in crDroid. 
 
 ### SD Card preparation:
 You will need to download all files from the [recovery folder on SourceForge](https://sourceforge.net/projects/crdroid/files/nx_tab/11.x/recovery/) and copy them to the following directories on your MicroSD card. Create the directories if they do not exist.  
@@ -36,7 +37,14 @@ Make your partition scheme based on your needs.
 Make sure to give Android at least 10GB.  
 If prompted, select "Dyanmic: Android 13+".  
 Press "Next Step", then "Start".  
-When the process is complete, press "Flash Android" and reboot to recovery.
+When the process is complete, press "Flash Android", but do not reboot to recovery.
+
+### Joy-Con setup
+Return to Hekate's main menu by pressing "Close" on the top right of the screen
+Towards the bottom left of the screen, press "Nyx Settings"
+Towards the top right, press "Dump Joy-Con BT", then press OK.
+Go back to Hekate's main menu, go to "Other Configs"
+Hold volume up, then select crDroid. Do not release volume up until the crDroid splash screen appears.
 
 ### Installing crDroid from recovery
 Download the crDroid ZIP file.  
