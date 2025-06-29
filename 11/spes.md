@@ -4,12 +4,10 @@
 
 * Make sure you have the latest firmware available for your phone (from download page, firmware button).
 * Gapps package (optional) (from download page, gapps button)
-* Recovery (from download page, recovery button)
-* A pc with platform-tools working (adb/fastboot)
+* Recovery (from download page, recovery button). If you want to use crDroid recovery then download both boot.img and vendor_boot.img, after that you can flash them in fastboot (`Power + Volume Down`) by doing `fastboot flash boot boot.img` and `fastboot flash vendor_boot vendor_boot.img`, then you can proceed with `fastboot reboot recovery`
+* A pc with platform-tools working (adb/fastboot) 
 
 ---
-
-* Flash recovery with the custom recovery you already have and reboot to it
 
 ### Step 1: Flash crDroid
 
