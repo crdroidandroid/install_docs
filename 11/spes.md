@@ -1,5 +1,3 @@
-## 🧰 Flashing Instructions
-
 ### Pre-installation:
 
 * Make sure you have the latest firmware available for your phone (from download page, firmware button).
@@ -43,7 +41,7 @@ Boot into **Recovery Mode** (Power + Volume Up)
 
 In recovery:
 
-Factory reset → Format data/Factory Reset → Tap "yes"
+Factory reset → Format data/Factory Reset → "Format data"
 
 ---
 
@@ -57,7 +55,7 @@ Factory reset → Format data/Factory Reset → Tap "yes"
 Example: 
 
 ```
-adb sideload crDroidAndroid-15.0-20250628-spes-v11.6.zip
+adb sideload crDroidAndroid-15.0-20250629-spes-v11.6.zip
 ```
 * Click enter and wait for flash to finish.
 
@@ -66,8 +64,11 @@ adb sideload crDroidAndroid-15.0-20250628-spes-v11.6.zip
 ### Step 4: Flash GApps (Optional)
 
 * Only if you want to use Google Apps
-* Flash GApps .zip immediately **after ROM**, without reboot. But when asked to reboot to recovery then you can, after that you can click Apply update and proceed with **adb sideload MindTheGapps-15.0.0-arm64-20250214_082511.zip.zip**
+* Flash GApps .zip immediately **after ROM**, without reboot. But when asked to reboot to recovery then you can, after that you can click Apply update and proceed with: 
 
+```
+adb sideload MindTheGapps-15.0.0-arm64-20250214_082511.zip
+```
 ---
 
 ### Step 5: Reboot
@@ -84,4 +85,4 @@ adb sideload crDroidAndroid-15.0-20250628-spes-v11.6.zip
     - **Via OTA**: Use the built-in **Updater**. (Settings > System > Update)
     - **Via Recovery**: Follow **Step 3** above **without factory reset**.
 
-*(No need to flash GApps again unless newer version of gapps is available)*
+*If you are encountering Google Play Services/Play Store crashing after update then proceed with flashing GApps again via recovery. Follow **Step 4** for flashing GApps*.
