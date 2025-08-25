@@ -3,7 +3,7 @@
 - Always have backup of your internal storage
 - Use recovery meant for Android 15 (download page, recovery button)
 - To retain recovery after rom flash, don't forget to tick the option "Automatically Reflash recovery after flashing a rom" in recovery. Else recovery will be replaced by recovery from rom
-- For Kernel SU-Next Always check what date zip to use in notes, [here](https://sourceforge.net/projects/marble-builds/files/losksunext/)
+- For Kernel SU Always check what date zip to use in notes, [here](https://sourceforge.net/projects/marble-builds/files/losksu/)
 - Gapps (download page, gapps button)
 - Only Hos2 fw is compatible download from -: [here](https://xmfirmwareupdater.com/firmware/marble/)
 
