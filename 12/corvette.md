@@ -7,6 +7,7 @@
 ### First time installation (clean flash):
 
 * Extract these images from payload.bin
+
 ```
 boot init_boot vendor_boot recovery
 ```
