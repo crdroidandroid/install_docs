@@ -1,3 +1,5 @@
+GApps are **NOT** supported! The Pixel 3 XL's partitions are too small to store both crDroid and GApps. Installing GApps will result in your phone bootlooping, and support will not be provided if you attempt to install them.
+
 ### Pre-installation:
 You will need to have a computer with the Android Platform Tools installed. See XDA's guide for installing the platform tools: https://www.xda-developers.com/install-adb-windows-macos-linux/
 
