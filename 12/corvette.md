@@ -2,7 +2,7 @@
 
 * **ColorOS 15 is required**
 * A pc with platform-tools working (adb/fastboot)
-* [Link](https://pixeldrain.com/u/ixCXnvKf) to download super_empty.img 
+* [Link](https://pixeldrain.com/u/hzRTmvwE) to download super_empty.img 
 
 ### First time installation (clean flash):
 
