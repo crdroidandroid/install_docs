@@ -1,3 +1,19 @@
+### Warning:
+Your device needs a specific firmware version before proceeding.
+
+If your device is currently using a newer or older version than the required version, please up- or downgrade to the required version before proceeding with this installation.
+
+The required version is **Android 15**, which may be lower than the crDroid version you are about to install - this is not an error!
+If there are multiple updates of that version (e.g. security updates), make sure to use the latest!
+
+Exact firmware version of blobs used in latest build is mentioned here:
+https://github.com/crdroidandroid/android_device_oneplus_benz/blob/16.0/proprietary-firmware.txt#L2
+
+If you need to upgrade or downgrade your device, please search online for guides.
+We are unable to provide specific instructions here and on our support platforms.
+
+---
+
 ### Pre-installation
 * Download the latest ROM file (referred to as **crdroid.zip**).
 * Download support files from the site:
@@ -9,16 +25,6 @@
 * Download the latest GApps (referred to as **gapps.zip**).
 
 *(Files may have YYYYMMDD date in file name, download latest files in that case)*
-
-**Warning:** Your device needs a specific firmware version before proceeding.
-
-If your device is currently using a newer or older version than the required version, please up- or downgrade to the required version before proceeding with this installation.
-
-The required version is **Android 15**, which may be lower than the crDroid version you are about to install - this is not an error!
-If there are multiple updates of that version (e.g. security updates), make sure to use the latest!
-
-If you need to upgrade or downgrade your device, please search online for guides.
-We are unable to provide specific instructions here and on our support platforms.
 
 ---
 
