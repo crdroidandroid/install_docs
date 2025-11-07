@@ -6,10 +6,10 @@
 
 ### First time installation (clean flash):
 * Boot to recovery
-* Flash the provided recovery image and vendor boot image via fastboot using ***fastboot flash recovery recover.img*** & ***fastboot flash vendor_boot vendor_boot.img***
+* Flash the provided recovery image and vendor boot image via fastboot using ***fastboot flash recovery recovery.img*** & ***fastboot flash vendor_boot vendor_boot.img***
 * Reboot to recovery using either volume + and power button combo or via fastboot command
 * Navigate to Apply Update > Apply from ADB
-* adb sideload the lineage zip using "adb sideload crdroid-*-onyx.zip"
+* adb sideload the crdroid  zip using "adb sideload crdroid-*-onyx.zip"
 * Factory reset/format data
 * Reboot to system
 * In case you want to use your own google apps package nikkaGapps is recomended, you can install this by rebooting back into recovery after step 4
