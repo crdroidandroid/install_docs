@@ -75,21 +75,13 @@ fastboot flash recovery recovery.img
 
 4. Return to the main menu.
 
-5. Sideload the crdroid.zip package but do not reboot before you read/followed the rest of the instructions!
-  - On the device, tap **Apply Update** > **Apply from ADB** to begin sideload.
-  - On the host machine, sideload the package using:
+5. Flash Miui 12.5 Firmware
 
-```
-adb -d sideload crdroid.zip
-```
+6. Flash crdriod package zip
 
-6. After installing ROM package, you can optionally flash gapps package. This step can be skipped for update installation.
-  - On the device, tap **Apply Update** > **Apply from ADB** to begin sideload.
-  - On the host machine, sideload the package using:
+7. Format data
 
-```
-adb -d sideload gapps.zip
-```
+8. Reboot To System
 
 ***WARNING:***
 *Custom kernels / mods may break sensors or camera on this ROM. Use it at your own discretion and do not report bugs in that case.*
