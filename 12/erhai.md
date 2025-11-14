@@ -19,6 +19,7 @@ We are unable to provide specific instructions here and on our support platforms
 * Download support files from the site:
   - **boot.img**
   - **dtbo.img**
+  - **init_boot.img**
   - **vbmeta.img**
   - **vendor_boot.img**
   - **recovery.img**
@@ -73,6 +74,7 @@ adb -d reboot bootloader
 ```
 fastboot flash boot boot.img
 fastboot flash dtbo dtbo.img
+fastboot flash init_boot init_boot.img
 fastboot flash vbmeta vbmeta.img
 fastboot flash vendor_boot vendor_boot.img
 fastboot flash recovery recovery.img
