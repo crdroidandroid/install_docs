@@ -70,5 +70,4 @@ adb sideload gapps.zip
   - **Via OTA**: Use the in-built **Updater**. (Settings > System > Update)
   - **Via Recovery**: Follow **Step 2** above **without factory reset**.
 
-*(No need to flash GApps again unless newer version of gapps is available)*
-
+* If Playstore is crashing after flashing rom , just reflash the gapps.zip file. 
