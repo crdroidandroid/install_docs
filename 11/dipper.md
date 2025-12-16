@@ -2,6 +2,7 @@
 
 * Recovery (from download page, recovery button)
 * Optional gapps (from download page, gapps button)
+* Optional KernelSU Next 1.0.9 apk (get it [here](https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v1.0.9/KernelSU_Next_v1.0.9_12797-release.apk))
 
 
 ### First time installation (clean flash):
