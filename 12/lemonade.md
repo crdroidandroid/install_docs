@@ -1,8 +1,8 @@
 ### Pre-installation:
 
-* **OOS 14 - 14.0.0.1901(EX01) firmware is required** (from download page, firmware button)
+* **OOS 14 - 14.0.0.1902(EX01) firmware is required** (from download page, firmware button)
 * Optional gapps (from download page, gapps button)
-* Optional KernelSU Next apk (get it on [release page](https://github.com/KernelSU-Next/KernelSU-Next/releases) from GitHub)
+* Optional KernelSU Next 1.1.1 apk (get it on [release page](https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v1.1.1/KernelSU_Next_v1.1.1-spoofed_12851-release.apk) from GitHub)
 
 
 ### First time installation (clean flash):
