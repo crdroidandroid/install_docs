@@ -53,7 +53,7 @@ fastboot devices
 4. Flash the downloaded image files to your device by typing:
 
 ```
-fastboot flash recovery recovery.img
+fastboot flash <recovery_file_path> recovery.img
 ```
 
 *(If support files have YYYYMMDD date prefix, rename respective img file accordingly)*
