@@ -8,7 +8,7 @@
 * Downbload needed file mentioned in pre-installation
 * On your pc open your platform-tools's cmd if using (windows) or open terminal on (linux/mac)
 
- ```
+```
 adb -d reboot bootloader
 ```
 or just boot into fastmode via volume down + power button.
@@ -39,6 +39,7 @@ adb sideload crDroid.zip
 * When rom sideloading is done sideload gapps (optional) same way
 * Now if you choosed to install gapps, simply sideload gapps.zip the same way you installed crDroid.zip the reboot into system
 * Formate data after sideloading rom ,if it throw error "Cant merge status" go to fastboot mode again then use:
+
 ```
 fastboot -w
 ```
