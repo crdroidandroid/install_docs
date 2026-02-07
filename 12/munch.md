@@ -12,11 +12,10 @@
 * Flash crDroid 12.x (toggle auto flash twrp)
 * Reboot recovery
 * (optional) flash Gapps (no auto toggle needed)
-* (optional) flash kernel with KSU support if you need root
 * Format data
 * Boot system
 
 
 ### Update installation:
 
-* Follow same install steps but skip format data
+* Follow same install steps but skip format data or update from updater app
