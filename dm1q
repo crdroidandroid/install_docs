@@ -1,0 +1,33 @@
+### Pre-installation:
+
+* Recovery (from download page, recovery button)
+* Optional gapps (from download page, gapps button)
+* Odin3 [Download](https://undocumented.software/Odin_3.13.1.zip)
+* Disabled VBMETA [Download](https://www.mediafire.com/file/jawrbu7ie6ev62r/vbmeta.tar/file)
+
+
+### First time installation (clean flash):
+
+* Remove all Google accounts from your device to avoid FRP (Factory reset protection).
+* Backup Data if needed.
+* Power off the phone, then enter Download Mode using Volume Down + Volume Up and enter Odin3.
+* In Odin3, select recovery file in the AP slot, and the VBMETA in USERDATA slot, then disable auto-reboot in Odin3 settings, then click start.
+* After the flash is done, hold Volume Up and Volume Down + Power until it reboots, then release Volume Down + Power until in recovery.
+* In crDroid recovery, select Factory reset, then Format data/factory reset.
+* After it's done, click on advanced, then reboot recovery.
+* Back in recovery, click Apply Update, then Apply from ADB.
+* Then put this command on your PC to install the crDroid rom:
+
+```
+adb sideload crdroid.zip
+```
+* After it's done, do the same steps to install any additional packages.
+* Reboot and enjoy.
+
+### Update installation:
+
+* Go to the system updater in the Settings app, and download the new update.
+* After the download is done, the update will be done automatically. 
+* Reboot.
+
+NOTE: If after OTA, some additional packages you had installed (e.g Magisk) are not there anymore, reflash them in recovery with ADB.
