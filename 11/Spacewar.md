@@ -1,33 +1,29 @@
 ### Pre-installation:
 
-* **NOS stable based on Android 15 firmware is required**
-* Optional gapps (from download page, gapps button)
-
+* Make sure you have rom zip and latest NothingOS firmware.
+* Gapps package (optional) (from download page, gapps button)
 
 ### First time installation (clean flash):
-* Boot to recovery
-* Format data
-* Choose apply update and Apply from ADB
-* Now install crDroid zip via sideload and reboot
 
-```
-adb sideload crDroid.zip
-```
-* Go back to main menu and reboot to recovery to install gapps (if you don't want gapps, reboot to system)
-* To install gapps, simply sideload gapps.zip the same way you installed crDroid.zip then reboot to system
+* Go to bootloader (adb reboot bootloader)
+* Then flash boot.img and vendor_boot.img (exp: fastboot flash boot boot.img)
+* After that reboot to recovery (fastboot reboot recovery)
+* Format your data and click ADB Sideload
+* Now sideload the rom.zip (adb sideload path/of/file.zip)
+* Get a coffie while its installing
+* After installation if you want to put gapps then reboot to recovery again and sideload gapps.zip like rom.zip
+* After all reboot the system
+* And you got it!
 
 ### Update installation:
 #### Via recovery (recommended way):
-* Boot to recovery
-* Choose apply update and Apply from ADB
-* Now install crDroid zip via sideload and reboot
-
-```
-adb sideload crDroid.zip
-```
-* If you had gapps, reboot to recovery and sideload gapps.zip and reboot
+* Reboot to recovery
+* Sideload rom.zip
+* Reinstall gapps (if you have before)
+* Wipe cache and reboot to system
 
 #### Via OTA:
 * Go to Settings -> System -> Updater and download latest build
 * Choose install and let it finish
-* Reboot
+* If having gapps, reboot to recovery and reinstall gapps package again
+* Reboot to system
