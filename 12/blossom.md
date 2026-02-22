@@ -2,6 +2,7 @@
 * Download the latest ROM file (referred to as **crdroid.zip**).
 * Download support files from the site:
   - **recovery.img**
+* Download device supported **Miui 12.5 Firmware** from [crDroid sourceforge](https://sourceforge.net/projects/crdroid/files/blossom/12.x/firmware/)
 * Download the latest GApps (referred to as **gapps.zip**).
 * Ensure you are on latest available firmware for your device.
 
@@ -53,7 +54,7 @@ fastboot devices
 4. Flash the downloaded image files to your device by typing:
 
 ```
-fastboot flash <recovery_file_path> recovery.img
+fastboot flash recovery <recovery.img_file_path>
 ```
 
 *(If support files have YYYYMMDD date prefix, rename respective img file accordingly)*
