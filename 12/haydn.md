@@ -5,13 +5,13 @@
 * A pc with platform-tools working (adb/fastboot)
 
 ### Step 1: Flash recovery:
-* Downbload needed file mentioned in pre-installation
+* Download needed file mentioned in pre-installation
 * On your pc open your platform-tools's cmd if using (windows) or open terminal on (linux/mac)
 
 ```
 adb -d reboot bootloader
 ```
-or just boot into fastmode via volume down + power button.
+or just boot into fastboot mode via volume down + power button.
 * Once you are in fastboot mode check if your device is connected correctly or not by: 
 
 ```
@@ -29,16 +29,15 @@ fastboot boot recovery.img
 
 ### Step 2: Installing recovery:
 * Reboot into recovery
-* Ensure that you have downloaded latest version of rewuired files
+* Ensure that you have downloaded latest version of required files
 * Now go to advanced tab in your recovery and press start_sideload
 * Now install crDroid zip via sideload
 
 ```
-adb sideload crDroid.zip
+adb sideload crDroid*.zip
 ```
-* When rom sideloading is done sideload gapps (optional) same way
-* Now if you choosed to install gapps, simply sideload gapps.zip the same way you installed crDroid.zip the reboot into system
-* Formate data after sideloading rom ,if it throw error "Cant merge status" go to fastboot mode again then use:
+* When rom sideloading is done reboot recovery and sideload gapps (optional) same way
+* Format data when everything is done is done (for clean flash) ,if it throw error "Cant merge status" then go to fastboot mode again then use:
 
 ```
 fastboot -w
