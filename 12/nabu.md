@@ -1,7 +1,7 @@
 ### Pre-installation
 * Download the latest ROM file (referred to as **crdroid.zip**).
 * Download support files from the site:
-  - **boot.img**, **vendor_boot.img** and **dtbo.img**
+  - **boot.img**, **vendor_boot.img**, **vbmeta.img** and **dtbo.img**
 * Download the latest GApps (referred to as **gapps.zip**).
 * Ensure you are on latest available firmware for your device.
 * Optional KernelSU Next apk (get it on [releases](https://github.com/rifsxd/KernelSU-Next/releases) from GitHub - click "show all assets" to see the apk)
@@ -57,6 +57,7 @@ fastboot devices
 fastboot flash boot boot.img
 fastboot flash vendor_boot vendor_boot.img
 fastboot flash dtbo dtbo.img
+fastboot flash vbmeta vbmeta.img
 ```
 
 *(If support files have YYYYMMDD date prefix, rename respective img file accordingly)*
