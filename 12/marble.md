@@ -5,12 +5,12 @@
 - To retain recovery after rom flash, don't forget to tick the option "Automatically Reflash recovery after flashing a rom" in recovery. Else recovery will be replaced by recovery from rom
 - For KernelSU-Next Always check what date zip to use in notes, [here](https://sourceforge.net/projects/marble-builds/files/losksunext/)
 - Gapps (download page, gapps button)
-- Only Hos2 fw is compatible download from -: [here](https://xmfirmwareupdater.com/firmware/marble/)
+- Only Hos3 fw is compatible download from -: [here](https://xmfirmwareupdater.com/firmware/marble/)
 
 ### Clean flash:
 - Download the ROM,Firmware and Gapps package from nikgapps
 - Boot into recovery
-- Flash HOS2 Firmware
+- Flash HOS3 Firmware
 - Wipe Dalvik/Art Cache,cache, FRP, metadata 
 - Flash the ROM(tick clean payload flash) and reboot to recovery
 - Flash the Nikgapps
