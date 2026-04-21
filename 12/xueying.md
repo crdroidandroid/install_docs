@@ -7,7 +7,7 @@ The required version is **Android 16**, which may be lower than the crDroid vers
 If there are multiple updates of that version (e.g. security updates), make sure to use the latest!
 
 Exact firmware version of blobs used in latest build is mentioned here:
-https://github.com/crdroidandroid/android_device_oneplus_waffle/blob/16.0/proprietary-firmware.txt#L2
+https://github.com/crdroidandroid/android_device_oneplus_xueying/blob/16.0/proprietary-firmware.txt#L2
 
 If you need to upgrade or downgrade your device, please search online for guides.
 We are unable to provide specific instructions here and on our support platforms.
