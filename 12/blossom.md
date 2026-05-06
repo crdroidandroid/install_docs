@@ -78,7 +78,7 @@ fastboot flash recovery <recovery.img_file_path>
 
 5. Flash Miui 12.5 Firmware
 
-6. Flash crdriod package zip
+6. Flash crdroid package zip
 
 7. Format data
 

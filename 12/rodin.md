@@ -75,8 +75,7 @@ fastboot flash vendor_boot --slot=all vendor_boot.img
 
 4. Return to the main menu.
 
-
-5. Flash crdriod package zip
+5. Flash crdroid package zip
 
 6. Format data
 
