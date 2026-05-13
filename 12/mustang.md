@@ -1,3 +1,5 @@
+# WARNING: If running stock May 2026 update, DO NOT FLASH ANY ROMS UNTIL THE CONTAINED BOOTLOADER IS UPDATED, OR RISK BRICK. Please check in on Telegram or XDA Forum post for updates.
+
 ### Pre-installation
 * Download the latest ROM file (referred to as **crdroid.zip**).
 * Download support files from the site:
