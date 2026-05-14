@@ -1,6 +1,6 @@
 ### Pre-installation:
 
-* **HyperOS latest stable based on Android 16 firmware is required As of now Global HOS 3.0.6 global firmware*
+* **HyperOS latest stable based on Android 16 firmware is required As of now Global HOS OS3.0.7.0.WOLMIXM global firmware*
 * Optional gapps (from download page, gapps button)
 
 
