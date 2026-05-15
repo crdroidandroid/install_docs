@@ -1,4 +1,22 @@
-# WARNING: If running stock May 2026 update, DO NOT FLASH ANY ROMS UNTIL THE CONTAINED BOOTLOADER IS UPDATED, OR RISK BRICK. Please check in on Telegram or XDA Forum post for updates.
+# WARNING: Please follow the below steps for installing v12.10 if not already running stock May SPL due to ABL ARB increments
+### Do not OTA update this update via settings, use the steps provided below
+### This is only required if currently running an April or eariler SPL. If already running latest stock, just install as usual
+* First, grab the latest bootloader and modem images, found [in the zip of the May 2026 factory images here](https://developers.google.com/android/images)
+* Once obtained follow the below steps:
+1. Reboot bootloader
+2. Flash the bootloader and modem images like follows:
+```
+fastboot flash bootloader bootloader-blazer-deepspace-17.1-15016913.img --slot all
+fastboot flash radio radio-blazer-g5400i-251201-260127-b-14784805.img --slot all
+fastboot reboot bootloader
+```
+*Note: rebooting bootloader / rebooting recovery may take a few extra seconds, do not be alarmed*
+3. If successful, fastboot bootloader mode should reboot with the newest bootloader. Use arrow keys to reboot to recovery
+
+4. ADB sideload v12.10 (or later) zip file (refer below if needed). Once sideloaded, reboot to recovery and sideload the same ROM file *again*
+
+5. On the second sideload completion, you may then reboot recovery, sideload gapps and addons, and reboot system!
+# Be aware once followed you may not return to 12.9 or below, or any other ROM that has not incremented bootloader, or you will brick!!!
 
 ### Pre-installation
 * Download the latest ROM file (referred to as **crdroid.zip**).
