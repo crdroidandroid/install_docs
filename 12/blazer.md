@@ -11,7 +11,7 @@ fastboot flash radio radio-blazer-g5400i-251201-260127-b-14784805.img --slot all
 fastboot reboot bootloader
 ```
 *Note: rebooting bootloader / rebooting recovery may take a few extra seconds, do not be alarmed*
-3. If successful, fastboot bootloader mode should reboot with the newest bootloader. Use arrow keys to reboot to recovery
+3. If successful, fastboot bootloader mode should reboot with the newest bootloader. Flash crDroid boot,dtbo,vendor_boot, and vendor_kernel_boot and use arrow keys to reboot to recovery
 
 4. ADB sideload v12.10 (or later) zip file (refer below if needed). Once sideloaded, reboot to recovery and sideload the same ROM file *again*
 
@@ -26,6 +26,7 @@ fastboot reboot bootloader
   - **vendor_kernel_boot.img**
   - **vendor_boot.img** (this is the recovery image file)
 * Download the latest GApps (referred to as **gapps.zip**).
+* Ensure you are running latest stock firmware to minimize issues
 
 *(Files may have YYYYMMDD date in file name or folder, download latest files in that case)*
 
