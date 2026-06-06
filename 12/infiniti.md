@@ -1,6 +1,6 @@
-### Pre-installation:
+d### Pre-installation:
 
-* [Optional Google Applications](https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-16/23-Feb-2026/)
+* Optional Google Applications
 
 
 ### First time installation (clean flash):
