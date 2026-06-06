@@ -1,6 +1,6 @@
 ### Pre-installation:
 
-* Optional Gapps (from download page, gapps button)
+* [Optional Google Applications](https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-16/23-Feb-2026/)
 
 
 ### First time installation (clean flash):
