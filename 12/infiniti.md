@@ -1,7 +1,6 @@
-d### Pre-installation:
+### Pre-installation:
 
 * Optional Google Applications
-
 
 ### First time installation (clean flash):
 
