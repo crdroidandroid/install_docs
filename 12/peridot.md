@@ -1,6 +1,6 @@
 ### Pre-installation:
 
-* **HyperOS latest stable based on Android 15 firmware is required. As of now: Global OS3.0.6.0.WNPMIXM**
+* **HyperOS latest stable  firmware is required. As of now: Global OS3.0.6.0.WNPMIXM**
 * Optional GApps (available from the download page)
 
 ### First time installation (clean flash):
