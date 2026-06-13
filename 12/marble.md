@@ -3,7 +3,7 @@
 - Always have backup of your internal storage
 - Use recovery meant for Android 16 (download page, recovery button)
 - To retain recovery after rom flash, don't forget to tick the option "Automatically Reflash recovery after flashing a rom" in recovery. Else recovery will be replaced by recovery from rom
-- For KernelSU-Next Always check what date zip to use in notes, [here](https://sourceforge.net/projects/marble-builds/files/losksunext/)
+- For KernelSU Managers Refer [here](https://gist.github.com/Chaitanyakm/fdb91e6602ce104f92ae68d70c18d7c9)
 - Gapps (download page, gapps button)
 - Only Hos3 fw is compatible download from -: [here](https://xmfirmwareupdater.com/firmware/marble/)
 
