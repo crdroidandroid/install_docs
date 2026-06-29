@@ -1,32 +1,64 @@
-### Pre-installation:
-* Make sure you have the ROM zip, latest RealmeUI firmware and recovery images.
-* Download copy-partitions-signed.zip if you are on RMX3151export_13.f18 or newer firmware.
-* Gapps package (optional) (from download page, gapps button).
+### Pre-installation
+Before you begin, ensure you have downloaded all the necessary files to your PC:
+* **ROM Zip:** The main custom ROM installation file.
+* **Firmware & Recovery:** The latest RealmeUI firmware, `boot.img`, and `vendor_boot.img`.
+* **GApps Package (Optional):** Available via the "GApps" button on the download page.
+* **Copy-Partitions:** `copy-partitions-signed.zip` *(Required only if you are on firmware `RMX3151export_13.f18` or newer)*.
 
-### First time installation (clean flash):
-* Go to bootloader (adb reboot bootloader).
-* Flash boot.img and vendor_boot.img (exp: fastboot flash boot boot.img).
-* After that reboot to recovery (fastboot reboot recovery).
-* Format data.
-* Go to Apply Update -> Apply from ADB.
-* If you are on RMX3151export_13.f18 or newer firmware, sideload copy-partitions-signed.zip (adb sideload copy-partitions-signed.zip).
-* Once completed, reboot back to recovery.
-* Go to Apply Update -> Apply from ADB again.
-* Sideload the ROM zip (adb sideload rom.zip).
-* Get a coffee while it's installing.
-* After installation, if you want GApps, reboot to recovery again and sideload gapps.zip like the ROM zip.
-* After all, reboot the system.
-* And you got it!
+---
 
-### Update installation:
-#### Via recovery (recommended way):
-* Reboot to recovery.
-* Sideload rom.zip.
-* Reinstall GApps (if you had them before).
-* Wipe cache and reboot to system.
+### First-Time Installation (Clean Flash)
 
-#### Via OTA:
-* Go to Settings -> System -> Updater and download the latest build.
-* Choose install and let it finish.
-* If having GApps, reboot to recovery and reinstall the GApps package again.
-* Reboot to system.
+1. **Boot to Recovery**
+   * Connect your phone to your PC and reboot to the bootloader:
+     ```bash
+     adb reboot bootloader
+     ```
+   * Flash the required partition images:
+     ```bash
+     fastboot flash boot boot.img
+     fastboot flash vendor_boot vendor_boot.img
+     ```
+   * Reboot into the newly flashed recovery:
+     ```bash
+     fastboot reboot recovery
+     ```
+
+2. **Format Data**
+   * In recovery, select **Format Data** and confirm.
+
+3. **Flash Copy-Partitions *(Conditional)***
+   * *Skip this step if you are on older firmware.*
+   * Navigate to **Apply Update** -> **Apply from ADB**.
+   * Sideload the partitions script:
+     ```bash
+     adb sideload copy-partitions-signed.zip
+     ```
+   * Once completed, **reboot back to recovery** before proceeding.
+
+4. **Flash the ROM**
+   * Navigate to **Apply Update** -> **Apply from ADB**.
+   * Sideload the ROM zip (this may take a few minutes):
+     ```bash
+     adb sideload rom.zip
+     ```
+
+5. **Flash GApps *(Optional)***
+   * If you want Google Apps, **reboot to recovery** once more.
+   * Navigate to **Apply Update** -> **Apply from ADB** and sideload GApps:
+     ```bash
+     adb sideload gapps.zip
+     ```
+
+6. **Reboot**
+   * Select **Reboot System** and enjoy!
+
+---
+
+### Update Installation (Dirty Flash)
+
+#### Method 1: Via Recovery (Recommended)
+1. Reboot your device into recovery mode.
+2. Navigate to **Apply Update** -> **Apply from ADB** and sideload the updated ROM:
+   ```bash
+   adb sideload rom.zip
