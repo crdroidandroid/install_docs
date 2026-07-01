@@ -13,7 +13,7 @@ Before you begin, ensure you have downloaded all the necessary files to your PC:
      adb reboot recovery
      ```
 
-   * Click *Install* and find the rom.zip (crDroidAndroid-16.0-2026****-spaced-v12.11)
+   * Click *Install* and find the rom.zip (crDroidAndroid-16.0-2026****-spaced-v12.11.zip)
    * Swipe to flash the ROM
 
 2. **Format Data**
