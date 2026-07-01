@@ -1,7 +1,7 @@
 ### Pre-installation
 Before you begin, ensure you have downloaded all the necessary files to your PC:
 * **ROM Zip:** The main custom ROM installation file.
-* **Firmware & Recovery:** The latest RealmeUI firmware, *boot.img* and *vendor_boot.img*.
+* **Firmware & Recovery:** The latest RealmeUI firmware.
 * **GApps Package (Optional):** Available via the "GApps" button on the download page.
 
 ### First-Time Installation (Clean Flash)
@@ -27,21 +27,26 @@ Before you begin, ensure you have downloaded all the necessary files to your PC:
      adb sideload gapps.zip
      ```
 
-6. **Reboot**
+4. **Reboot**
    * Select **Reboot System** and enjoy!
 
-#### Method 1: Via Sideload
+### Update Installation (OTA)
+You can update via **Settings > System > System Updates**, which will automatically download and prompt to install the latest build.
+
+Alternatively, you can update manually via sideload:
+
+#### Via Sideload
 1. Reboot to recovery
 
      ```
      adb reboot recovery
      ```
-2. Go to *Advanced* section then select *Sideload*>.
-3. Connect your phone to pc then open termninal inside platform tools folder.
+2. Go to *Advanced* section then select *Sideload*.
+3. Connect your phone to pc then open terminal inside platform tools folder.
 4. Then command:
 
      ```
      adb sideload rom.zip
      ```
 5. Then format data and *swipe* then type *yes*.
-6. Reboot to system and enjoy!
+6. Reboot to system.
