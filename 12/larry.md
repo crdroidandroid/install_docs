@@ -3,6 +3,7 @@
 * Make sure you have the ROM zip, latest OxygenOS firmware and recovery images.
 * Download [copy-partitions-20220613-signed.zip](https://mirrorbits.lineageos.org/tools/copy-partitions-20220613-signed.zip) if you are on CPH246x.15.0.0.1600 or newer firmware.
 * GApps package (optional) (from download page, GApps button).
+* For KernelSU Next [here](https://sourceforge.net/projects/larry-rom-archive/files/UsefulTools/KernelSU_Next_v3.2.0-21-g5a4a7187_33150-release.apk/download)
 
 > **WARNING:** If you are on **CPH246x.15.0.0.1600 or newer firmware**, you **MUST** flash *copy-partitions-20220613-signed.zip* before installing the ROM. Skipping this step will result in an installation failure and may leave the device hard-bricked, requiring EDL recovery. Do not proceed without completing this step.
 
