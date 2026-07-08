@@ -10,20 +10,20 @@
 
 * Unlock Bootloader
 * Reboot to bootloader
-* Flash the vendor boot image:
+* Flash the boot image:
 
 ```
-fastboot flash vendor_boot vendor_boot.img
+fastboot flash boot boot.img
 ```
 * Flash the DTBO image:
 
 ```
 fastboot flash dtbo dtbo.img
 ```
-Flash the boot image:
+Flash the recovery image:
 
 ```
-fastboot flash boot boot.img
+fastboot flash recovery recovery.img
 ```
 * Reboot to recovery:
 
