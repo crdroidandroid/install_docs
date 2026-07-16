@@ -1,10 +1,6 @@
 **Before start flashing.....**
-
-- Always have backup of your internal storage
-- Use OFOX recovery meant for mondrian (download page, recovery button)
-- To retain OFOX recovery after rom flash, don't forget to tick the option "Automatically Reflash OFOX after flashing a rom" in recovery. Else OFOX will be replaced by recovery from rom
-- For OFOX zip, [Visit channel](https://t.me/keoshlapgroup/29876)
-- HyperOS FW included
+ - Use OFOX recovery meant for mondrian (download page, recovery button)
+ - For OFOX zip, [Visit channel](https://t.me/tahaninmekani/1850/40633)  
 - Gapps (download page, gapps button)
 ----
 
@@ -18,6 +14,35 @@
 - Reboot into recovery again to switch slots
 - Flash Gapps (download page, gapps button)
 - Tap on format data, type yes and reboot to system
+
+**Dirty flash:**
+- Download the ROM
+- Boot into recovery
+- Wipe Dalvik/ArtCache and Cache
+- Flash the ROM
+- Reboot into recovery again to switch slots
+- Flash Gapps (download page, gapps button)
+- Reboot To System
+
+----
+
+## Vanilla variant
+
+**Clean flash:**
+- Download the ROM
+- Boot into recovery
+ 
+- Flash the ROM 
+- Tap on format data, type yes and reboot to system
+
+**Dirty flash:**
+- Download the ROM
+- Boot into recovery
+ 
+- Flash the ROM
+- Reboot To System
+
+----- Tap on format data, type yes and reboot to system
 
 **Dirty flash:**
 - Download the ROM
