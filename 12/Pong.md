@@ -6,7 +6,7 @@
 
  *  Optional GApps 
 
-First time installation (clean flash):
+### First time installation (clean flash):
 
  *  Step 1: Boot into Recovery mode (via Fastboot using Volume Down + Power)
 
@@ -21,7 +21,7 @@ adb sideload crdroid.zip
 
  *  Step 5: Format data once more if required, then tap Reboot System
 
-Update installation:
+### Update installation:
 
  *  Step 1: Reboot your device into Recovery mode
 
