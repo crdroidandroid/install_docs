@@ -2,7 +2,7 @@
 
 [First time installation (clean flash)](#title1)  
 [Update to a newer build of the same crDroid version](#title2)  
-Optional: KernelSU-Next 3.3.0 apk (get it on [release page](https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v3.3.0/KernelSU_Next_v3.3.0-spoofed_33214-release.apk) from GitHub)  
+Optional: Magisk (get it on [release page](https://github.com/topjohnwu/Magisk/releases) from GitHub)  
 
 ---
 # <a id="title1">First time installation (clean flash):</a>
@@ -103,20 +103,20 @@ This platform requires additional partitions to be flashed for recovery to work 
 ---
 
 1. Download the latest versions of the following files from download page, recovery button.
-    - crDroidAndroid-16.0-YYYYMMDD-v12.X-***dtbo.img***
-    - crDroidAndroid-16.0-YYYYMMDD-v12.X-***vbmeta.img***
+    - crDroidAndroid-17.0-YYYYMMDD-v13.X-***dtbo.img***
+    - crDroidAndroid-17.0-YYYYMMDD-v13.X-***vbmeta.img***
 2. Power off the device, and boot it into bootloader mode:
     - With the device powered off, hold ***Volume Up*** + ***Volume Down*** + ***Power***.
 3. Flash the downloaded image files to your device by typing:
 
 ```
-fastboot flash dtbo crDroidAndroid-16.0-YYYYMMDD-v12.X-dtbo.img
-fastboot flash vbmeta crDroidAndroid-16.0-YYYYMMDD-v12.X-vbmeta.img
+fastboot flash dtbo crDroidAndroid-17.0-YYYYMMDD-v13.X-dtbo.img
+fastboot flash vbmeta crDroidAndroid-17.0-YYYYMMDD-v13.X-vbmeta.img
 ```
 
 ## Installing crDroid Recovery using ***fastboot***
 
-1. Download **crDroid Recovery** (see download page, recovery button). Simply download the latest recovery file, named ***crDroidAndroid-16.0-YYYYMMDD-v12.X-recovery.img***.
+1. Download **crDroid Recovery** (see download page, recovery button). Simply download the latest recovery file, named ***crDroidAndroid-17.0-YYYYMMDD-v13.X-recovery.img***.
 
 **Important**  
 Other recoveries may not work for installation or updates. We strongly recommend to use the one linked above!
@@ -126,7 +126,7 @@ Other recoveries may not work for installation or updates. We strongly recommend
 2. Flash recovery onto your device:
 
 ```
-fastboot flash recovery crDroidAndroid-16.0-YYYYMMDD-v12.X-recovery.img
+fastboot flash recovery crDroidAndroid-17.0-YYYYMMDD-v13.X-recovery.img
 ```
 Now reboot into recovery.
 
