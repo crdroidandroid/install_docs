@@ -2,7 +2,7 @@
 
 [First time installation (clean flash)](#title1)  
 [Update to a newer build of the same crDroid version](#title2)  
-Optional: KernelSU-Next Manager apk (get it on [release page](https://github.com/rifsxd/KernelSU-Next/releases) from GitHub)  
+Optional: KernelSU-Next 3.3.0 apk (get it on [release page](https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v3.3.0/KernelSU_Next_v3.3.0-spoofed_33214-release.apk) from GitHub)  
 
 ---
 # <a id="title1">First time installation (clean flash):</a>
