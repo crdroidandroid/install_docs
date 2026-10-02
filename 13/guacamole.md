@@ -1,14 +1,13 @@
 ### Pre-installation:
 
-* **OOS 14 - 14.0.0.1902(EX01) firmware is required** (from download page, firmware button)
+* **OOS 12 H.41 firmware is mandatory** (from download page, firmware button)
 * Optional gapps (from download page, gapps button)
-* Optional KernelSU Next 3.3.0 apk (get it on [release page](https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v3.3.0/KernelSU_Next_v3.3.0-spoofed_33214-release.apk) from GitHub)
 
 
 ### First time installation (clean flash):
 
 * Backup your data to PC, OTG flash drive
-* Make sure you are on latest OOS 14
+* Make sure you are on latest OOS 12
 * Extract ***firmware flasher zip***
 * Enter fastboot
 * Execute ***Update-firmware.bat*** (windows) or ***Update-firmware.sh*** (Linux - make file executable) from extracted firmware flasher folder
@@ -24,12 +23,6 @@ adb sideload crDroid.zip
 * Now if you choosed to install gapps, simply sideload gapps.zip the same way you installed crDroid.zip then reboot to system
 
 ### Update installation:
-#### Firmware update (if needed):
-* Extract ***firmware flasher zip***
-* Enter fastboot
-* Execute ***Update-firmware.bat*** (windows) or ***Update-firmware.sh*** (Linux - make file executable) from extracted firmware flasher folder (modem needs to be always updated, unless US variant)
-* Proceed with below installation (via recovery)
-
 #### Via recovery (recommended way):
 * Boot to recovery
 * Choose apply update and Apply from ADB
