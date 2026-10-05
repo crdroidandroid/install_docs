@@ -1,51 +1,84 @@
-### Pre-installation:
-* Download the latest ROM file (referred to as **crdroid.zip**).
-* Gapps package (optional) (from download page, gapps button)
-* Recovery (from download page, recovery button)
-* A pc with platform-tools working (adb/fastboot)
+# Install crDroid for Mi 11X Pro (haydn)
 
-### Step 1: Flash recovery:
-* Download needed file mentioned in pre-installation
-* On your pc open your platform-tools's cmd if using (windows) or open terminal on (linux/mac)
+### Pre-installation:
+
+* Download the latest ROM file (referred to as **crdroid.zip**).
+* GApps package (optional) (from the download page, GApps button).
+* Recovery (from the download page, Recovery button).
+* A PC with platform-tools working (`adb`/`fastboot`).
+
+### Step 1: Boot recovery:
+
+* Download the required files mentioned in the pre-installation section.
+* On your PC, open the platform-tools command prompt (Windows) or terminal (Linux/macOS).
 
 ```
 adb -d reboot bootloader
+
 ```
-or just boot into fastboot mode via volume down + power button.
-* Once you are in fastboot mode check if your device is connected correctly or not by: 
+
+* Or boot into Fastboot mode manually using Volume Down + Power.
+
+* Once you are in Fastboot mode, check if your device is connected correctly:
 
 ```
 fastboot devices
+
 ```
-* Now install recovery by using:
+
+* Boot the recovery using:
 
 ```
 fastboot boot recovery.img
-```
-***WARNING:***  
-*Dont use (fastboot "flash" recovery.img) for installing recovery*
-* Use downloaded recovery's image in above command (i am assuming its recovery.img)
-* Wipe everything (crdroid.zip must be on your pc)
 
-### Step 2: Installing recovery:
-* Reboot into recovery
-* Ensure that you have downloaded latest version of required files
-* Now go to advanced tab in your recovery and press start_sideload
-* Now install crDroid zip via sideload
+```
+
+WARNING:
+
+* Do not use fastboot flash recovery recovery.img.
+* Use the recovery image downloaded from the crDroid download page.
+* Replace recovery.img with the actual filename if necessary.
+
+### Step 2: Install crDroid:
+
+* Reboot into recovery.
+* Make sure you have downloaded the latest required files.
+* From recovery, select Apply Update → Apply from ADB.
+* Start ADB sideload.
+* On your PC, install crDroid using:
 
 ```
 adb sideload crDroid*.zip
+
 ```
-* When rom sideloading is done reboot recovery and sideload gapps (optional) same way
-* Format data when everything is done is done (for clean flash) ,if it throw error "Cant merge status" then go to fastboot mode again then use:
+* Once the ROM installation is complete, reboot recovery.
+
+### If You Want Gapps
+
+* If you want to install GApps, sideload the GApps package in the same way:
+
+```
+adb sideload gapps*.zip
+
+```
+
+* When everything is finished, format data for a clean installation.
+
+* If recovery shows a "Can't merge status" error, reboot into Fastboot mode and run:
 
 ```
 fastboot -w
-```
-* This will erase 'Userdata' or you can simple format through crdroid's recovery
 
-#### Via OTA:
-* Go to Settings -> System -> Updater and download latest build
-* Choose install and let it finish
-* If having gapps, reboot to recovery and sideload gapps package again
-* Reboot
+```
+
+* This will erase userdata. You can also format data directly from crDroid Recovery.
+
+
+### Via OTA
+
+* Go to Settings → System → Updater.
+* Download the latest build.
+* Select Install and let the update finish.
+* If you use GApps and they need to be reinstalled, reboot into recovery and sideload the GApps package again.
+
+* Reboot...
