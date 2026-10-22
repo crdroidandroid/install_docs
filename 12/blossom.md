@@ -76,7 +76,7 @@ fastboot flash recovery <recovery.img_file_path>
 
 4. Return to the main menu.
 
-5. Flash Miui 12.5 Firmware
+5. Flash Miui 12.5 Firmware ( if you used 12.5 miui stock rom , so no need flash 12.5 firmware )
 
 6. Flash crdroid package zip
 
