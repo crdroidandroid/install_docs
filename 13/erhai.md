@@ -12,6 +12,13 @@ https://github.com/crdroidandroid/android_device_oneplus_erhai/blob/17.0/proprie
 If you need to upgrade or downgrade your device, please search online for guides.
 We are unable to provide specific instructions here and on our support platforms.
 
+Make sure that your model number is one of the following (exact match required!):
+- OPD2413
+- OPD2415
+
+Boot your device with the stock OS at least once and check every functionality. 
+Remove all Google accounts from your device to avoid “Factory reset protection”
+
 ---
 
 ### Pre-installation
