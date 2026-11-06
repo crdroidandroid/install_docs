@@ -23,11 +23,14 @@
 1. Reboot the device into the provided recovery
 2. Select **Apply Update** and then **Apply from ADB**
 3. Sideload the crDroid ROM zip:
-   `adb sideload <crDroid-ROM.zip>`
+
+   `adb sideload crDroid-ROM.zip`
+   
 4. After flashing is complete, select **Reboot to Recovery**
 5. Select **Apply Update** and then **Apply from ADB** again
 6. Sideload a compatible GApps package:
-   `adb sideload <GApps.zip>`
+
+   `adb sideload GApps.zip`
 7. Reboot to System
 8. Wait for the device to boot completely
 
