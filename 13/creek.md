@@ -18,8 +18,18 @@
 8. Select Reboot System
 9. Wait for the first boot to complete
 
-### Update installation:
+### Update installation (dirty flash):
 
-* Dirty flash/update installation has not been validated for this initial release.
-* A clean flash is recommended.
+1. Reboot the device into the provided recovery
+2. Select **Apply Update** and then **Apply from ADB**
+3. Sideload the crDroid ROM zip:
+   `adb sideload <crDroid-ROM.zip>`
+4. After flashing is complete, select **Reboot to Recovery**
+5. Select **Apply Update** and then **Apply from ADB** again
+6. Sideload a compatible GApps package:
+   `adb sideload <GApps.zip>`
+7. Reboot to System
+8. Wait for the device to boot completely
 
+* Do not format data when performing a dirty flash.
+* Use a GApps package compatible with Android 17 and ARM64. Skip the GApps step if you want to keep the Vanilla build without Google Apps.
