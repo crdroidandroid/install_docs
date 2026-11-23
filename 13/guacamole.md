@@ -2,7 +2,7 @@
 
 * **OOS 12 H.41 firmware is mandatory** (from download page, firmware button)
 * Optional gapps (from download page, gapps button)
-
+* Optional KernelSU Next 3.4.2 apk (get it on [release page](https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v3.4.2/KernelSU_Next_v3.4.2-spoofed_33355-release.apk) from GitHub)
 
 ### First time installation (clean flash):
 
@@ -38,3 +38,4 @@ adb sideload crDroid.zip
 * Choose install and let it finish
 * If having gapps, reboot to recovery and sideload gapps package again
 * Reboot
+
