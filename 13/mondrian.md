@@ -1,8 +1,6 @@
-**Before start flashing.....**
- - Use OFOX recovery meant for mondrian (download page, recovery button)
- - For OFOX zip, [Visit channel](https://t.me/tahaninmekani/1850/40633)  
+**Before start flashing**
+- Download recovery (download page, recovery button)
 - Gapps (download page, gapps button)
-----
 
 ## Gapps variant
 
@@ -24,10 +22,7 @@
 - Flash Gapps (download page, gapps button)
 - Reboot To System
 
-----
-
 ## Vanilla variant
-
 **Clean flash:**
 - Download the ROM
 - Boot into recovery
@@ -39,5 +34,3 @@
 - Boot into recovery
 - Flash the ROM
 - Reboot To System
-
-----
