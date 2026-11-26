@@ -4,7 +4,6 @@
 * Download the ROM zip together with the recovery images (boot.img, dtbo.img and vendor_boot.img)
 * Unlock the bootloader and enable USB debugging, then install adb and fastboot on your computer
 
-
 ### First time installation (clean flash):
 
 * Reboot your device to bootloader (fastboot mode)
@@ -38,8 +37,6 @@ adb sideload gapps.zip
 
 * Reboot to recovery
 * Choose "Apply update" > "Apply from ADB" and sideload the new ROM zip
-
-```
 adb sideload crdroid.zip
 ```
 * Reboot to system
