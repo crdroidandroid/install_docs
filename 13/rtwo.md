@@ -5,6 +5,8 @@ Verify your phone is running Android 15 or 16. If running 14 or earlier, please 
 
 Verify you have the model number XT2301-4, XT2301-5 or XT2301-1. 
 
+* KernelSU Next is integrated, install KernelSU Next apk from here: [KernelSU Next](https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v3.4.2/KernelSU_Next_v3.4.2-spoofed_33355-release.apk)
+
 ### Unlocking bootloader
 To run crDroid, you need to have your bootloader unlocked.  
 Do note that unlocking your bootloader will wipe all your data, please back up your data before continuing.  
